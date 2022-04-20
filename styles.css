@@ -1,3 +1,31 @@
-body {
+header {
+    background-color:coral;
+}
+
+#logo {
+    border: 3px dotted white;
+}
+
+img {
+    border: 3px solid black;
+}
+
+#personal-intro {
+    border: 3px dotted red;
+}
+
+h1 {
+    background-color: gray
+}
+
+.intro {
+    background-color: cadetblue;
+}
+
+.connect {
+    background-color: darkcyan;
+}
+
+.social-icons {
     background-color: tomato;
 }
