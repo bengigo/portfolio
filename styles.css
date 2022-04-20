@@ -1,9 +1,5 @@
 /* temp styles for plannign */
 
-.connect {
-    background-color: darkcyan;
-}
-
 .social-icons {
     background-color: tomato;
 }
@@ -82,4 +78,14 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+}
+
+.connect {
+  height: 24px;
+  /* width: 117px; */
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
 }
