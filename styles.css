@@ -1,65 +1,63 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 375px;
-    position: absolute;
-    left: calc(50% - 375px / 2);
+  width: 375px;
+  position: absolute;
+  left: calc(50% - 375px / 2);
 }
 
 main {
-    height: 718px;
-    width: 375px;
+  height: 718px;
+  width: 375px;
 }
 
 header {
-    height: 48px;
-    width: 375px;
+  height: 48px;
+  width: 375px;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #logo {
-    height: 40px;
-    border-radius: 0px;
-    text-align: center;
-    font-weight: 700;
-    padding: 10px 12px 10px 12px;
-    color: #6070ff;
-    margin-top: 14px;
-    margin-bottom: 14px;
-    margin-left: 12px;
+  height: 40px;
+  border-radius: 0px;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px 12px 10px 12px;
+  color: #6070ff;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 12px;
 }
 
 #logo:hover {
-    background-color: #6070ff;
-    color: white;
-    border-radius: 20%;
+  background-color: #6070ff;
+  color: white;
+  border-radius: 20%;
 }
 
 #burger {
-    margin-right: 36px;
+  margin-right: 36px;
 }
 
 #personal-intro {
-    display: flex;
-    flex-direction: column;
-    background-image: url(images/home-bg-img.png);
-    height: 604px;
-    border-radius: ;
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/home-bg-img.png);
+  height: 604px;
 }
-
 
 h1 {
   height: 150px;
@@ -84,7 +82,6 @@ h1 {
 
 .connect {
   height: 24px;
-  /* width: 117px; */
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
@@ -103,6 +100,6 @@ h1 {
   align-items: center;
 }
 
-a:hover {
-    background-color: #6070ff;
+a:hover {  
+  background-color: #6070ff;
 }
