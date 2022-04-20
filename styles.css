@@ -1,17 +1,5 @@
 /* temp styles for plannign */
 
-#personal-intro {
-    border: 3px dotted red;
-}
-
-h1 {
-    background-color: gray
-}
-
-.intro {
-    background-color: cadetblue;
-}
-
 .connect {
     background-color: darkcyan;
 }
@@ -20,26 +8,30 @@ h1 {
     background-color: tomato;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+
 body {
-  width: 375px;
+    width: 375px;
 }
 
 main {
-  height: 718px;
-  width: 375px;
-  background-color: antiquewhite;
+    height: 718px;
+    width: 375px;
+    border: solid;
 }
 
 header {
-  height: 48px;
-  width: 375px;
-  left: 0px;
-  top: 44px;
-  border-radius: 0px;
+    height: 48px;
+    width: 375px;
 }
 
 nav {
@@ -49,19 +41,45 @@ nav {
 }
 
 #logo {
-  height: 40px;
-  width: 100px;
-  border-radius: 0px;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  padding: 10px 12px 10px 12px;
-  color: #6070ff;
-  margin-top: 14px;
-  margin-bottom: 14px;
-  margin-left: 12px;
+    height: 40px;
+    width: 100px;
+    border-radius: 0px;
+    text-align: center;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: 700;
+    padding: 10px 12px 10px 12px;
+    color: #6070ff;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 12px;
 }
 
 #burger {
     margin-right: 36px;
+}
+
+#personal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+  height: 150px;
+  width: 327px;
+  color: #172b4d;
+  margin-top: 114px;
+  font-weight: 700;
+  margin-left: 24px;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.intro {
+  height: 146px;
+  width: 327px;
+  margin: 12px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
