@@ -1,14 +1,4 @@
-header {
-    background-color:coral;
-}
-
-#logo {
-    border: 3px dotted white;
-}
-
-img {
-    border: 3px solid black;
-}
+/* temp styles for plannign */
 
 #personal-intro {
     border: 3px dotted red;
@@ -28,4 +18,50 @@ h1 {
 
 .social-icons {
     background-color: tomato;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  width: 375px;
+}
+
+main {
+  height: 718px;
+  width: 375px;
+  background-color: antiquewhite;
+}
+
+header {
+  height: 48px;
+  width: 375px;
+  left: 0px;
+  top: 44px;
+  border-radius: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+  height: 40px;
+  width: 100px;
+  border-radius: 0px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 10px 12px 10px 12px;
+  color: #6070ff;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 12px;
+}
+
+#burger {
+    margin-right: 36px;
 }
