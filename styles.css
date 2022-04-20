@@ -32,7 +32,6 @@ nav {
 
 #logo {
   height: 40px;
-  border-radius: 0px;
   text-align: center;
   font-weight: 700;
   padding: 10px 12px 10px 12px;
@@ -100,6 +99,6 @@ h1 {
   align-items: center;
 }
 
-a:hover {  
+a:hover {
   background-color: #6070ff;
 }
