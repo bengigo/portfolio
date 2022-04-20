@@ -57,7 +57,9 @@ nav {
     flex-direction: column;
     background-image: url(images/home-bg-img.png);
     height: 604px;
+    border-radius: ;
 }
+
 
 h1 {
   height: 150px;
