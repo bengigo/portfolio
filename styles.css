@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   width: 375px;
   position: absolute;
@@ -123,4 +127,38 @@ h1 {
 
 a:hover {
   background-color: #6070ff;
+}
+
+/* .works {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+
+/* ** */
+.work1 {
+  background-color: aliceblue;
+}
+
+.work2 {
+  background-color:violet;
+}
+
+.work3 {
+  background-color:darkkhaki;
+}
+
+.work4 {
+  background-color:darkseagreen;
+}
+/* ** */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  height: 552px;
+  width: 327px;
+}
+
+.job {
+  display: flex;
 }
