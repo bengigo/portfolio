@@ -65,7 +65,7 @@ nav {
   margin: 6px auto;
 }
 
-#personal-intro {
+.personal-intro {
   display: flex;
   flex-direction: column;
   background-image: url(images/home-bg-img.png);
