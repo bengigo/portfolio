@@ -49,23 +49,20 @@ nav {
 }
 
 #burger {
-  margin-right: 36px;
   width: 30px;
   height: 35px;
   background: none;
   border: none;
   margin-right: 24px;
-  /* margin-top: 58px; */
   cursor: pointer;
 }
 
-
 .bar {
-    width: 16px;
-    height: 2px;
-    background-color: #6070ff;
-    display: block;
-    margin: 6px auto;
+  width: 16px;
+  height: 2px;
+  background-color: #6070ff;
+  display: block;
+  margin: 6px auto;
 }
 
 #personal-intro {
@@ -109,8 +106,8 @@ h1 {
 }
 
 .connect:hover {
-    color: white;
-    background-color: #6070ff;
+  color: white;
+  background-color: #6070ff;
 }
 
 .social-icons {
