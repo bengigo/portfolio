@@ -242,6 +242,9 @@ h3 {
 .btn:hover {
   background-color: #6070FF;
   color: white;
+  -webkit-box-shadow: 1px 7px 20px -7px rgba(96,112,255,0.76);
+-moz-box-shadow: 1px 7px 20px -7px rgba(96,112,255,0.76);
+box-shadow: 1px 7px 20px -7px rgba(96,112,255,0.76);
 }
 
 .btn-project {
