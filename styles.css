@@ -140,7 +140,7 @@ a:hover {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-row-gap: 88px;
-  margin: 114px 24px
+  margin: 114px 24px;
 }
 
 .cards {
@@ -240,11 +240,11 @@ h3 {
 }
 
 .btn:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
-  -webkit-box-shadow: 1px 7px 20px -7px rgba(96,112,255,0.76);
--moz-box-shadow: 1px 7px 20px -7px rgba(96,112,255,0.76);
-box-shadow: 1px 7px 20px -7px rgba(96,112,255,0.76);
+  -webkit-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+  -moz-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+  box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
 }
 
 .btn-project {
@@ -259,7 +259,6 @@ box-shadow: 1px 7px 20px -7px rgba(96,112,255,0.76);
   width: 375px;
   display: flex;
   flex-direction: column;
-
 }
 
 h2 {
@@ -295,7 +294,6 @@ h2 {
 .btn-resume {
   height: 48px;
   width: 162px;
-  /* padding: 12px; */
   margin-left: 24px;
   margin-top: 20px;
 }
@@ -303,7 +301,7 @@ h2 {
 .skills {
   display: flex;
   flex-direction: column;
-  margin: 24px
+  margin: 24px;
 }
 
 .arrow-down {
@@ -316,7 +314,6 @@ h2 {
   height: 12px;
   width: 6px;
   margin-right: 40px;
-
 }
 
 .skill-li {
@@ -330,14 +327,12 @@ h2 {
   line-height: 24px;
   height: 72px;
   width: 327px;
-
 }
 
 .skill-img {
   margin-top: 12px;
   margin-left: 12px;
   margin-right: 12px;
-
 }
 
 .hr {
