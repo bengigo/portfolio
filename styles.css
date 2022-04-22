@@ -8,15 +8,22 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   width: 375px;
   position: absolute;
   left: calc(50% - 375px / 2);
+  background-color: #e5e5e5;
 }
 
 main {
   height: 718px;
   width: 375px;
+  background-color: white;
+  border-radius: 0 0 0 60px;
 }
 
 header {
@@ -65,7 +72,7 @@ nav {
   margin: 6px auto;
 }
 
-#personal-intro {
+.personal-intro {
   display: flex;
   flex-direction: column;
   background-image: url(images/home-bg-img.png);
@@ -86,7 +93,9 @@ h1 {
 .intro {
   height: 146px;
   width: 327px;
-  margin: 12px 24px;
+  margin-top: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -103,6 +112,7 @@ h1 {
   margin-left: 24px;
   text-decoration: none;
   border-radius: 4%;
+  margin-top: 12px;
 }
 
 .connect:hover {
@@ -110,7 +120,7 @@ h1 {
   background-color: #6070ff;
 }
 
-.social-icons {
+.social-icons-main {
   list-style-type: none;
   height: 20px;
   width: 170.17px;
@@ -123,4 +133,208 @@ h1 {
 
 a:hover {
   background-color: #6070ff;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 88px;
+  margin: 114px 24px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  height: 552px;
+  width: 327px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.work-img {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-left: 16px;
+  margin-top: 12px;
+  color: #172b4d;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.company {
+  margin-right: 12px;
+  color: #344563;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.counter {
+  margin-right: 12px;
+}
+
+.job-title {
+  margin-right: 12px;
+  color: #7a869a;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.year {
+  color: #7a869a;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.work-info {
+  color: #344563;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.tags {
+  display: flex;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.tag {
+  background-color: #ebebff;
+  margin-right: 8px;
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
+.btn {
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: none;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: white;
+  -webkit-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+  -moz-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+  box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+}
+
+.btn-project {
+  width: 124px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.about {
+  background-color: white;
+  height: 1263px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  padding-top: 114px;
+  margin-left: 24px;
+}
+
+.about-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.social-icons-about {
+  list-style-type: none;
+  height: 40px;
+  width: 200px;
+  margin-top: 16px;
+  margin-left: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-resume {
+  height: 48px;
+  width: 162px;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+}
+
+.arrow-down {
+  height: 6px;
+  width: 12px;
+  margin-right: 40px;
+}
+
+.arrow-right {
+  height: 12px;
+  width: 6px;
+  margin-right: 40px;
+}
+
+.skill-li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-left: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  height: 72px;
+  width: 327px;
+}
+
+.skill-img {
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.hr {
+  border-bottom: 1px solid #dfe1e6;
 }
