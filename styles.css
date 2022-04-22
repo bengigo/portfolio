@@ -129,10 +129,12 @@ a:hover {
   background-color: #6070ff;
 }
 
-/* .works {
+.works {
   display: grid;
   grid-template-columns: 1fr;
-} */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 88px;
+}
 
 /* ** */
 .work1 {
@@ -161,4 +163,13 @@ a:hover {
 
 .job {
   display: flex;
+}
+
+.tags {
+  display: flex;
+}
+
+.tag {
+  background-color: #ebebff;
+
 }
