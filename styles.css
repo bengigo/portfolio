@@ -93,7 +93,10 @@ h1 {
 .intro {
   height: 146px;
   width: 327px;
-  margin: 12px 24px;
+  /* margin: 12px 24px; */
+  margin-top: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -110,6 +113,7 @@ h1 {
   margin-left: 24px;
   text-decoration: none;
   border-radius: 4%;
+  margin-top: 12px;
 }
 
 .connect:hover {
@@ -140,24 +144,6 @@ a:hover {
   border: 1px dotted red;
   margin: 114px 24px
 }
-
-/* ** */
-/* .work1 {
-  background-color: aliceblue;
-} */
-
-.work2 {
-  background-color:violet;
-}
-
-.work3 {
-  background-color:darkkhaki;
-}
-
-.work4 {
-  background-color:darkseagreen;
-}
-/* ** */
 
 .cards {
   display: flex;
@@ -259,4 +245,78 @@ h3 {
   width: 124px;
   margin-left: 16px;
   margin-top: 24px;
+}
+
+.about {
+  background-color: white;
+  height: 1263px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+h2 {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  padding-top: 114px;
+  margin-left: 24px;
+}
+
+.about-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin: 24px
+}
+
+.arrow-down {
+  height: 6px;
+  width: 12px;
+  margin-right: 40px;
+}
+
+.arrow-right {
+  height: 12px;
+  width: 6px;
+  margin-right: 40px;
+
+}
+
+.skill-li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-left: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  height: 72px;
+  width: 327px;
+
+}
+
+.skill-img {
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+
+}
+
+.hr {
+  border-bottom: 1px solid #dfe1e6;
 }
