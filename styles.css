@@ -23,6 +23,7 @@ main {
   height: 718px;
   width: 375px;
   background-color: white;
+  border-radius: 0 0 0 60px;
 }
 
 header {
@@ -137,7 +138,7 @@ a:hover {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-row-gap: 88px;
   border: 1px dotted red;
-  margin: 26px 24px
+  margin: 114px 24px
 }
 
 /* ** */
@@ -164,6 +165,7 @@ a:hover {
   height: 552px;
   width: 327px;
   background-color: white;
+  border-radius: 16px;
 }
 
 .work-img {
