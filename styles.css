@@ -420,3 +420,10 @@ textarea {
 }
 
 /* submit button hover style here */
+.submit-button:hover {
+  background-color: #6070ff;
+  color: white;
+  -webkit-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+  -moz-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+  box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+}
