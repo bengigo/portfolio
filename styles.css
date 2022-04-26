@@ -338,3 +338,26 @@ h2 {
 .hr {
   border-bottom: 1px solid #dfe1e6;
 }
+
+/* contact page */
+.contact-page {
+  height: 779px;
+  width: 375px;
+  background-color: thistle;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-heading {
+  text-align: center;
+}
+
+.form-intro {
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.contact-form {
+  display: flex;
+}
