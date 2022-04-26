@@ -397,6 +397,7 @@ textarea {
   padding: 15px 38px 15px 16px;
   color: #172b4d;
   font-weight: 400;
+  border-radius: 8px;
 }
 
 /* .submit-button {
