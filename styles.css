@@ -400,10 +400,6 @@ textarea {
   border-radius: 8px;
 }
 
-/* .submit-button {
-  margin-top: 22px;
-} */
-
 .submit-button {
   margin-left: 24px;
   margin-top: 22px;
@@ -416,10 +412,8 @@ textarea {
   line-height: 24px;
   color: #6070ff;
   border-style: none;
-  border-radius: 8px;
 }
 
-/* submit button hover style here */
 .submit-button:hover {
   background-color: #6070ff;
   color: white;
