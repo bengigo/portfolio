@@ -338,3 +338,86 @@ h2 {
 .hr {
   border-bottom: 1px solid #dfe1e6;
 }
+
+/* contact page */
+.contact-page {
+  height: 779px;
+  width: 375px;
+  background-color: #6070ff;
+  background-image: url(images/contact-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 60px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: -103px;
+}
+
+.form-heading {
+  text-align: center;
+  padding-top: 103px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.form-intro {
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 55px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.contact-form {
+  display: flex;
+}
+
+.contact-input {
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 15px 38px 15px 16px;
+  border-style: none;
+  color: #172b4d;
+  font-weight: 400;
+}
+
+textarea {
+  box-sizing: border-box;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 170px;
+  width: 327px;
+  padding: 15px 38px 15px 16px;
+  color: #172b4d;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.submit-button {
+  margin-left: 24px;
+  margin-top: 22px;
+  height: 48px;
+  width: 140px;
+  border-radius: 8px;
+  padding: 12px, 16px, 12px, 16px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #6070ff;
+  border-style: none;
+}
+
+.submit-button:hover {
+  background-color: #6070ff;
+  color: white;
+  -webkit-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+  -moz-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+  box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+}
