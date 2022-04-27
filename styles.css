@@ -76,7 +76,7 @@ nav {
 .personal-intro {
   display: flex;
   flex-direction: column;
-  background-image: url(images/home-bg-img.png);
+  background-image: url();
   height: 604px;
 }
 
@@ -345,7 +345,7 @@ h2 {
   height: 779px;
   /* width: 375px; */
   background-color: #6070ff;
-  background-image: url(images/contact-bg.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-position: right;
   border-radius: 60px 0 0 0;
