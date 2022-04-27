@@ -12,23 +12,24 @@ ul {
   list-style-type: none;
 }
 
+/* mobile design starts */
 body {
-  width: 375px;
-  position: absolute;
-  left: calc(50% - 375px / 2);
+  /* width: 375px; */
+  /* position: absolute; */
+  /* left: calc(50% - 375px / 2); */
   background-color: #e5e5e5;
 }
 
 main {
   height: 718px;
-  width: 375px;
+  /* width: 375px; */
   background-color: white;
   border-radius: 0 0 0 60px;
 }
 
 header {
   height: 48px;
-  width: 375px;
+  /* width: 375px; */
 }
 
 nav {
@@ -81,7 +82,7 @@ nav {
 
 h1 {
   height: 150px;
-  width: 327px;
+  /* width: 327px; */
   color: #172b4d;
   margin-top: 118px;
   font-weight: 700;
@@ -92,7 +93,7 @@ h1 {
 
 .intro {
   height: 146px;
-  width: 327px;
+  /* width: 327px; */
   margin-top: 12px;
   margin-left: 24px;
   margin-right: 24px;
@@ -104,7 +105,7 @@ h1 {
 
 .connect {
   height: 24px;
-  width: 120px;
+  /* width: 120px; */
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
@@ -146,8 +147,8 @@ a:hover {
 .cards {
   display: flex;
   flex-direction: column;
-  height: 552px;
-  width: 327px;
+  /* height: 552px; */
+  /* width: 327px; */
   background-color: white;
   border-radius: 16px;
 }
@@ -256,7 +257,7 @@ h3 {
 .about {
   background-color: white;
   height: 1263px;
-  width: 375px;
+  /* width: 375px; */
   display: flex;
   flex-direction: column;
 }
@@ -342,7 +343,7 @@ h2 {
 /* contact page */
 .contact-page {
   height: 779px;
-  width: 375px;
+  /* width: 375px; */
   background-color: #6070ff;
   background-image: url(images/contact-bg.png);
   background-repeat: no-repeat;
@@ -377,7 +378,7 @@ h2 {
 
 .contact-input {
   height: 48px;
-  width: 327px;
+  /* width: 327px; */
   border-radius: 8px;
   margin-bottom: 20px;
   margin-left: 24px;
@@ -393,7 +394,7 @@ textarea {
   margin-left: 24px;
   margin-right: 24px;
   height: 170px;
-  width: 327px;
+  /* width: 327px; */
   padding: 15px 38px 15px 16px;
   color: #172b4d;
   font-weight: 400;
@@ -420,4 +421,10 @@ textarea {
   -webkit-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
   -moz-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
   box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
+}
+/* mobile design ends */
+
+/* dekstop design */
+@media only screen and (min-width: 768px) {
+
 }
