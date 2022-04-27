@@ -76,7 +76,9 @@ nav {
 .personal-intro {
   display: flex;
   flex-direction: column;
-  background-image: url();
+  background-image: url(images/bg-images/main-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 604px;
 }
 
