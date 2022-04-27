@@ -330,7 +330,7 @@ h2 {
   font-size: 20px;
   line-height: 24px;
   height: 72px;
-  width: 327px;
+  /* width: 327px; */
 }
 
 .language {
