@@ -19,36 +19,26 @@ ul {
   }
 }
 
-/* mobile */
 body {
-  /* width: 375px; */
-  /* position: absolute; */
-  /* left: calc(50% - 375px / 2); */
   background-color: #e5e5e5;
 }
 
-/* mobile */
 main {
   height: 718px;
-  /* width: 100vw; */
   background-color: white;
   border-radius: 0 0 0 60px;
 }
 
-/* mobile */
 header {
   height: 48px;
-  /* width: 375px; */
 }
 
-/* mobile */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* mobile */
 #logo {
   height: 40px;
   text-align: center;
@@ -61,7 +51,6 @@ nav {
   text-decoration: none;
 }
 
-/* mobile */
 #logo:hover {
   background-color: #6070ff;
   color: white;
@@ -77,7 +66,6 @@ nav {
   cursor: pointer;
 }
 
-/* mobile */
 .bar {
   width: 16px;
   height: 2px;
@@ -86,7 +74,6 @@ nav {
   margin: 6px auto;
 }
 
-/* mobile */
 .personal-intro {
   display: flex;
   flex-direction: column;
@@ -98,7 +85,6 @@ nav {
 
 h1 {
   height: 150px;
-  /* width: 327px; */
   color: #172b4d;
   margin-top: 118px;
   font-weight: 700;
@@ -107,10 +93,8 @@ h1 {
   line-height: 52px;
 }
 
-/* mobile */
 .intro {
   height: 146px;
-  /* width: 327px; */
   margin-top: 12px;
   margin-left: 24px;
   margin-right: 24px;
@@ -122,7 +106,6 @@ h1 {
 
 .connect {
   height: 24px;
-  /* width: 120px; */
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
@@ -133,7 +116,6 @@ h1 {
   margin-top: 12px;
 }
 
-/* mobile */
 .connect:hover {
   color: white;
   background-color: #6070ff;
@@ -154,7 +136,6 @@ a:hover {
   background-color: #6070ff;
 }
 
-/* mobile */
 .works {
   display: grid;
   grid-template-columns: 1fr;
@@ -166,8 +147,6 @@ a:hover {
 .cards {
   display: flex;
   flex-direction: column;
-  /* height: 552px; */
-  /* width: 327px; */
   background-color: white;
   border-radius: 16px;
 }
@@ -178,7 +157,6 @@ a:hover {
   margin-right: 16px;
 }
 
-/* mobile */
 h3 {
   font-size: 32px;
   font-weight: 700;
@@ -207,7 +185,6 @@ h3 {
   margin-right: 12px;
 }
 
-/* mobile */
 .job-title {
   margin-right: 12px;
   color: #7a869a;
@@ -223,7 +200,6 @@ h3 {
   font-weight: 600;
 }
 
-/* mobile */
 .work-info {
   color: #344563;
   font-size: 15px;
@@ -251,7 +227,6 @@ h3 {
   padding: 4px 12px;
 }
 
-/* mobile */
 .btn {
   color: #396df2;
   font-size: 17px;
@@ -278,11 +253,9 @@ h3 {
   margin-top: 24px;
 }
 
-/* mobile */
 .about {
   background-color: white;
   height: 1263px;
-  /* width: 375px; */
   display: flex;
   flex-direction: column;
   padding-top: 114px;
@@ -307,7 +280,6 @@ h2 {
   margin-right: 24px;
 }
 
-/* mobile */
 .social-icons-about {
   list-style-type: none;
   height: 40px;
@@ -326,9 +298,6 @@ h2 {
   margin-top: 20px;
 }
 
-/* mobile */
-/* REWRITE SKILL LIST ON ABOUT PAGE */
-/* mobile */
 .about-list {
   margin-top: 36px;
   margin-left: 24px;
@@ -371,13 +340,11 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* mobile */
 .language-list {
   display: flex;
   flex-direction: column;
 }
 
-/* mobile */
 .language {
   display: flex;
   align-items: center;
@@ -386,12 +353,10 @@ h2 {
   margin-bottom: 12px;
 }
 
-/* mobile */
 .language-name {
   margin-left: 16px;
 }
 
-/* mobile */
 .language-img {
   margin-left: 12px;
 }
@@ -404,7 +369,6 @@ h2 {
 /* contact page */
 .contact-page {
   height: 779px;
-  /* width: 375px; */
   background-color: #6070ff;
   background-image: url(images/bg-images/mobile/contact-page-bg.svg);
   background-repeat: no-repeat;
@@ -440,7 +404,6 @@ h2 {
 
 .contact-input {
   height: 48px;
-  /* width: 327px; */
   width: calc(100vw - 48px);
   border-radius: 8px;
   margin-bottom: 20px;
@@ -457,7 +420,6 @@ textarea {
   margin-left: 24px;
   margin-right: 24px;
   height: 170px;
-  /* width: 327px; */
   width: calc(100vw - 48px);
   padding: 15px 38px 15px 16px;
   color: #172b4d;
@@ -486,8 +448,6 @@ textarea {
   -moz-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
   box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
 }
-
-
 
 /* mobile design ends */
 
@@ -560,14 +520,11 @@ textarea {
     flex-direction: column;
     background-image: url(images/bg-images/desktop/main-bg.svg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* height: 604px; */
     height: calc(100% - 72px);
   }
 
   h1 {
     height: 122px;
-    /* width: 327px; */
     color: #172b4d;
     font-weight: 700;
     margin-left: 260px;
@@ -578,7 +535,6 @@ textarea {
 
   .intro {
     height: 98pxpx;
-    /* width: 327px; */
     margin-top: 12px;
     margin-left: 260px;
     margin-right: 260px;
@@ -590,14 +546,12 @@ textarea {
 
   .connect-home {
     height: 24px;
-    /* width: 120px; */
     color: #7f8cff;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     margin-left: 260px;
     text-decoration: none;
-    /* border-radius: 4%; */
     margin-top: 12px;
   }
 
@@ -777,8 +731,6 @@ textarea {
     font-size: ;
     font-weight: ;
     line-height: ;
-    /* margin-left: 24px; */
-
   }
 
   .about-info {
@@ -786,9 +738,6 @@ textarea {
     font-size: ;
     line-height: ;
     color: #344563;
-    /* margin-top: 12px;
-    margin-left: 24px;
-    margin-right: 24px; */
   }
 
   .social-icons-about {
@@ -809,8 +758,6 @@ textarea {
     margin-top: ;
   }
 
-
-  /* REWRITE SKILL LIST ON ABOUT PAGE */
   .about-list {
     margin-top: 142px;
     margin-left: 24px;
@@ -873,12 +820,10 @@ textarea {
     justify-content: space-around;
   }
 
-  /* mobile */
   .language-name {
     margin-left: 16px;
   }
 
-  /* mobile */
   .language-img {}
 
   .hr {
@@ -889,7 +834,6 @@ textarea {
   /* contact page */
   .contact-page {
     height: 779px;
-    /* width: 375px; */
     background-color: #6070ff;
     background-image: url(images/bg-images/desktop/contact-page-bg.svg);
     background-repeat: no-repeat;
@@ -910,8 +854,6 @@ textarea {
 
   .form-intro {
     text-align: center;
-    /* margin-left: 116px;
-    margin-right: 116px; */
     margin-bottom: 55px;
     color: white;
     font-size: 20px;
@@ -930,7 +872,6 @@ textarea {
 
   .contact-input {
     height: 48px;
-    /* width: 327px; */
     width: 447px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -947,7 +888,6 @@ textarea {
     margin-left: 24px;
     margin-right: 24px;
     height: 170px;
-    /* width: 327px; */
     width: 447px;
     padding: 15px 38px 15px 16px;
     color: #172b4d;
@@ -956,8 +896,6 @@ textarea {
   }
 
   .submit-button {
-    /* margin-left: 153.5px;
-    margin-right: 153.5px; */
     background-color: white;
     margin-top: 22px;
     height: 48px;
