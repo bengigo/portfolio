@@ -13,6 +13,7 @@ ul {
 }
 
 /* mobile design starts */
+
 @media only screen and (max-width: 768px) {
   .desktop {
     display: none;
@@ -20,28 +21,37 @@ ul {
 }
 
 /* mobile */
+
 body {
   /* width: 375px; */
+
   /* position: absolute; */
+
   /* left: calc(50% - 375px / 2); */
+
   background-color: #e5e5e5;
 }
 
 /* mobile */
+
 main {
   height: 718px;
   /* width: 100vw; */
+
   background-color: white;
   border-radius: 0 0 0 60px;
 }
 
 /* mobile */
+
 header {
   height: 48px;
   /* width: 375px; */
+
 }
 
 /* mobile */
+
 nav {
   display: flex;
   align-items: center;
@@ -49,6 +59,7 @@ nav {
 }
 
 /* mobile */
+
 #logo {
   height: 40px;
   text-align: center;
@@ -62,6 +73,7 @@ nav {
 }
 
 /* mobile */
+
 #logo:hover {
   background-color: #6070ff;
   color: white;
@@ -78,6 +90,7 @@ nav {
 }
 
 /* mobile */
+
 .bar {
   width: 16px;
   height: 2px;
@@ -87,6 +100,7 @@ nav {
 }
 
 /* mobile */
+
 .personal-intro {
   display: flex;
   flex-direction: column;
@@ -99,6 +113,7 @@ nav {
 h1 {
   height: 150px;
   /* width: 327px; */
+
   color: #172b4d;
   margin-top: 118px;
   font-weight: 700;
@@ -108,9 +123,11 @@ h1 {
 }
 
 /* mobile */
+
 .intro {
   height: 146px;
   /* width: 327px; */
+
   margin-top: 12px;
   margin-left: 24px;
   margin-right: 24px;
@@ -123,6 +140,7 @@ h1 {
 .connect {
   height: 24px;
   /* width: 120px; */
+  
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
@@ -771,19 +789,10 @@ textarea {
     width: 447px;
   }
 
-  h2 {
-    color: #172b4d;
-    font-size: ;
-    font-weight: ;
-    line-height: ;
-    /* margin-left: 24px; */
-
-  }
-
   .about-info {
-    font-weight: ;
-    font-size: ;
-    line-height: ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #344563;
     /* margin-top: 12px;
     margin-left: 24px;
@@ -794,8 +803,7 @@ textarea {
     list-style-type: none;
     height: 40px;
     width: 200px;
-    margin-top: ;
-    margin-left: ;
+    margin-top: 26px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -804,8 +812,6 @@ textarea {
   .btn-resume {
     height: 48px;
     width: 162px;
-    margin-left: ;
-    margin-top: ;
   }
 
 
@@ -878,7 +884,6 @@ textarea {
   }
 
   /* mobile */
-  .language-img {}
 
   .hr {
     border-bottom: 1px solid #dfe1e6;
@@ -888,7 +893,7 @@ textarea {
   /* contact page */
   .contact-page {
     height: 779px;
-    /* width: 375px; */
+    /* width: 100vh; */
     background-color: #6070ff;
     background-image: url(images/bg-images/desktop/contact-page-bg.svg);
     background-repeat: no-repeat;
@@ -944,7 +949,7 @@ textarea {
     margin-right: 496px;
     /* height: 170px; */
     /* width: 327px; */
-    width: calc(100vw - 48px);
+    /* width: calc(100vw - 48px); */
     padding: 15px 38px 15px 16px;
     color: #172b4d;
     font-weight: 400;
