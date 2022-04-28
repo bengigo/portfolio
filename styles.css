@@ -510,9 +510,9 @@ textarea {
     padding: 10px 12px;
     text-decoration: none;
     color: #344563;
-    font-size: ;
-    font-weight: ;
-    line-height: ;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
   }
 
   .personal-intro {
