@@ -534,7 +534,7 @@ textarea {
   }
 
   .intro {
-    height: 98pxpx;
+    height: 98px;
     margin-top: 12px;
     margin-left: 260px;
     margin-right: 260px;
@@ -604,7 +604,6 @@ textarea {
   .reverse-cards .card-text {
     margin: 24px 22px 7px 24px;
   }
-
 
   .work-img {
     margin: 24px 22px 24px 24px;
@@ -713,7 +712,6 @@ textarea {
   .about {
     background-color: white;
     height: 1263px;
-    /* width: 375px; */
     display: flex;
     flex-direction: row;
   }
@@ -744,8 +742,6 @@ textarea {
     list-style-type: none;
     height: 40px;
     width: 200px;
-    margin-top: ;
-    margin-left: ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -754,8 +750,6 @@ textarea {
   .btn-resume {
     height: 48px;
     width: 162px;
-    margin-left: ;
-    margin-top: ;
   }
 
   .about-list {
@@ -763,7 +757,6 @@ textarea {
     margin-left: 24px;
     margin-right: 24px;
     width: 684px;
-    margin-top: 142px;
   }
 
   .skills {
@@ -824,12 +817,9 @@ textarea {
     margin-left: 16px;
   }
 
-  .language-img {}
-
   .hr {
     border-bottom: 1px solid #dfe1e6;
   }
-
 
   /* contact page */
   .contact-page {
@@ -861,7 +851,6 @@ textarea {
     line-height: 28px;
     height: 102px;
     width: 569px;
-
   }
 
   .contact-form {
@@ -916,5 +905,4 @@ textarea {
     -moz-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
     box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
   }
-
 }
