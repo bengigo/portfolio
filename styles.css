@@ -589,13 +589,28 @@ textarea {
 
   .cards {
     display: flex;
-    flex-direction: column;
-    /* height: 552px; */
-    /* width: 327px; */
+    flex-direction: row;
     background-color: white;
     border-radius: 16px;
   }
 
+  .reverse-cards {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .cards .card-text {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 22px 27px 22px;
+  }
+
+  .reverse-cards .card-text {
+    background-color: thistle;
+  }
+
+
+  /* need to change margins? */
   .work-img {
     margin-top: 16px;
     margin-left: 16px;
@@ -603,27 +618,27 @@ textarea {
   }
 
   h3 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 44px;
-    margin-left: 16px;
-    margin-top: 12px;
+    line-height: 52px;
+    margin-left: 24px;
+    margin-top: 24px;
     color: #172b4d;
   }
 
   .job {
     display: flex;
     align-items: center;
-    margin-left: 16px;
-    margin-top: 20px;
+    margin-left: 24px;
+    margin-top: 12px;
   }
 
   .company {
     margin-right: 12px;
     color: #344563;
-    font-size: 13px;
-    line-height: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
   }
 
   .counter {
@@ -633,16 +648,16 @@ textarea {
   .job-title {
     margin-right: 12px;
     color: #7a869a;
-    font-size: 13px;
-    line-height: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
   }
 
   .year {
     color: #7a869a;
-    font-size: 13px;
-    line-height: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
   }
 
   .work-info {
@@ -651,14 +666,14 @@ textarea {
     font-weight: 400;
     line-height: 24px;
     margin-top: 20px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .tags {
     display: flex;
-    margin-left: 16px;
-    margin-top: 12px;
+    margin-left: 24px;
+    margin-top: 28px;
   }
 
   .tag {
@@ -694,8 +709,8 @@ textarea {
 
   .btn-project {
     width: 124px;
-    margin-left: 16px;
-    margin-top: 24px;
+    margin-left: 24px;
+    margin-top: 40px;
   }
 
   .about {
