@@ -606,16 +606,17 @@ textarea {
   }
 
   .reverse-cards .card-text {
-    background-color: thistle;
     margin: 24px 22px 7px 24px;
   }
 
 
   /* need to change margins? */
   .work-img {
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 24px 22px 24px 24px;
+  }
+
+  .reverse-cards .work-img {
+    margin: 24px 22px;
   }
 
   h3 {
