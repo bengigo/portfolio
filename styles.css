@@ -577,8 +577,8 @@ textarea {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 88px;
-    margin: 114px 24px;
+    grid-row-gap: 142px;
+    margin:142px;
   }
 
   .cards {
