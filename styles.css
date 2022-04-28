@@ -14,11 +14,10 @@ ul {
 
 /* mobile design starts */
 @media only screen and (max-width: 768px) {
-.desktop {
-  display: none;
+  .desktop {
+    display: none;
+  }
 }
-}
-
 
 body {
   /* width: 375px; */
@@ -495,27 +494,24 @@ textarea {
     border-radius: 20%;
   }
 
-  #burger {
-    width: 30px;
-    height: 35px;
-    background: none;
-    border: none;
-    margin-right: 24px;
-    cursor: pointer;
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
   }
 
-  .bar {
-    width: 16px;
-    height: 2px;
-    background-color: #6070ff;
-    display: block;
-    margin: 6px auto;
+  .desktop-links {
+    margin-left: 32px;
+    text-decoration: none;
+    color: #344563;
+    font-size: ;
+    font-weight: ;
+    line-height: ;
   }
 
   .personal-intro {
     display: flex;
     flex-direction: column;
-    background-image: url(images/bg-images/main-bg.svg);
+    background-image: url(images/bg-images/desktop/main-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 604px;
