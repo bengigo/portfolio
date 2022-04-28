@@ -19,6 +19,7 @@ ul {
   }
 }
 
+/* mobile */
 body {
   /* width: 375px; */
   /* position: absolute; */
@@ -26,6 +27,7 @@ body {
   background-color: #e5e5e5;
 }
 
+/* mobile */
 main {
   height: 718px;
   /* width: 100vw; */
@@ -33,17 +35,20 @@ main {
   border-radius: 0 0 0 60px;
 }
 
+/* mobile */
 header {
   height: 48px;
   /* width: 375px; */
 }
 
+/* mobile */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* mobile */
 #logo {
   height: 40px;
   text-align: center;
@@ -56,6 +61,7 @@ nav {
   text-decoration: none;
 }
 
+/* mobile */
 #logo:hover {
   background-color: #6070ff;
   color: white;
@@ -71,6 +77,7 @@ nav {
   cursor: pointer;
 }
 
+/* mobile */
 .bar {
   width: 16px;
   height: 2px;
@@ -79,6 +86,7 @@ nav {
   margin: 6px auto;
 }
 
+/* mobile */
 .personal-intro {
   display: flex;
   flex-direction: column;
@@ -99,6 +107,7 @@ h1 {
   line-height: 52px;
 }
 
+/* mobile */
 .intro {
   height: 146px;
   /* width: 327px; */
@@ -124,6 +133,7 @@ h1 {
   margin-top: 12px;
 }
 
+/* mobile */
 .connect:hover {
   color: white;
   background-color: #6070ff;
@@ -144,6 +154,7 @@ a:hover {
   background-color: #6070ff;
 }
 
+/* mobile */
 .works {
   display: grid;
   grid-template-columns: 1fr;
@@ -167,6 +178,7 @@ a:hover {
   margin-right: 16px;
 }
 
+/* mobile */
 h3 {
   font-size: 32px;
   font-weight: 700;
@@ -195,6 +207,7 @@ h3 {
   margin-right: 12px;
 }
 
+/* mobile */
 .job-title {
   margin-right: 12px;
   color: #7a869a;
@@ -210,6 +223,7 @@ h3 {
   font-weight: 600;
 }
 
+/* mobile */
 .work-info {
   color: #344563;
   font-size: 15px;
@@ -237,6 +251,7 @@ h3 {
   padding: 4px 12px;
 }
 
+/* mobile */
 .btn {
   color: #396df2;
   font-size: 17px;
@@ -263,12 +278,15 @@ h3 {
   margin-top: 24px;
 }
 
+/* mobile */
 .about {
   background-color: white;
   height: 1263px;
   /* width: 375px; */
   display: flex;
   flex-direction: column;
+  padding-top: 114px;
+
 }
 
 h2 {
@@ -276,7 +294,6 @@ h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  padding-top: 114px;
   margin-left: 24px;
 }
 
@@ -290,6 +307,7 @@ h2 {
   margin-right: 24px;
 }
 
+/* mobile */
 .social-icons-about {
   list-style-type: none;
   height: 40px;
@@ -308,53 +326,76 @@ h2 {
   margin-top: 20px;
 }
 
+/* mobile */
+/* REWRITE SKILL LIST ON ABOUT PAGE */
+/* mobile */
+.about-list {
+  margin-top: 36px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
-  margin: 24px;
+}
+
+.skill-li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-name {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 12px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .arrow-down {
   height: 6px;
   width: 12px;
   margin-right: 40px;
+  margin-top: 33px;
+  margin-bottom: 33px;
 }
 
 .arrow-right {
   height: 12px;
   width: 6px;
-  margin-right: 40px;
+  margin-top: 30px;
+  margin-right: 42px;
+  margin-bottom: 30px;
 }
 
-.skill-li {
+/* mobile */
+.language-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 24px;
-  padding-left: 12px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  height: 72px;
-  /* width: 327px; */
+  flex-direction: column;
 }
 
+/* mobile */
 .language {
   display: flex;
   align-items: center;
-  margin-top: 12px;
-  margin-left: 12px;
-  margin-right: 12px;
   background-color: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 
+/* mobile */
+.language-name {
+  margin-left: 16px;
+}
+
+/* mobile */
 .language-img {
   margin-left: 12px;
 }
 
-.language-name {
-  margin-left: 16px;
-}
 
 .hr {
   border-bottom: 1px solid #dfe1e6;
@@ -546,7 +587,7 @@ textarea {
     color: #344563;
   }
 
-  .connect {
+  .connect-home {
     height: 24px;
     /* width: 120px; */
     color: #7f8cff;
@@ -610,7 +651,6 @@ textarea {
   }
 
 
-  /* need to change margins? */
   .work-img {
     margin: 24px 22px 24px 24px;
   }
@@ -720,34 +760,42 @@ textarea {
     height: 1263px;
     /* width: 375px; */
     display: flex;
+    flex-direction: row;
+  }
+
+  .about-intro {
+    display: flex;
     flex-direction: column;
+    margin-top: 142px;
+    margin-left: 142px;
+    width: 447px;
   }
 
   h2 {
     color: #172b4d;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    padding-top: 114px;
-    margin-left: 24px;
+    font-size: ;
+    font-weight: ;
+    line-height: ;
+    /* margin-left: 24px; */
+    
   }
 
   .about-info {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: ;
+    font-size: ;
+    line-height: ;
     color: #344563;
-    margin-top: 12px;
+    /* margin-top: 12px;
     margin-left: 24px;
-    margin-right: 24px;
+    margin-right: 24px; */
   }
 
   .social-icons-about {
     list-style-type: none;
     height: 40px;
     width: 200px;
-    margin-top: 16px;
-    margin-left: 24px;
+    margin-top: ;
+    margin-left: ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -756,61 +804,86 @@ textarea {
   .btn-resume {
     height: 48px;
     width: 162px;
+    margin-left: ;
+    margin-top: ;
+  }
+
+
+  /* REWRITE SKILL LIST ON ABOUT PAGE */
+  .about-list {
+    margin-top: 142px;
     margin-left: 24px;
-    margin-top: 20px;
+    margin-right: 24px;
+    width: 684px;
+    margin-top: 142px;
   }
 
   .skills {
     display: flex;
     flex-direction: column;
-    margin: 24px;
+  }
+
+  .skill-li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+
+  .skill-name {
+    color: #344563;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .arrow-down {
     height: 6px;
     width: 12px;
     margin-right: 40px;
+    margin-top: 33px;
+    margin-bottom: 33px;
   }
 
   .arrow-right {
     height: 12px;
     width: 6px;
-    margin-right: 40px;
+    margin-top: 30px;
+    margin-right: 42px;
+    margin-bottom: 30px;
   }
 
-  .skill-li {
+  .language-list {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 24px;
-    padding-left: 12px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    height: 72px;
-    /* width: 327px; */
+    flex-direction: row;
   }
 
   .language {
     display: flex;
-    align-items: center;
-    margin-top: 12px;
-    margin-left: 12px;
-    margin-right: 12px;
+    flex-direction: column;
     background-color: #f7f7f9;
+    border-radius: 8px;
+    margin-right: 12px;
+    align-items: flex-start;
+    height: 120px;
+    width: 122px;
+    justify-content: space-around;
   }
 
-  .language-img {
-    margin-left: 12px;
-  }
-
+  /* mobile */
   .language-name {
     margin-left: 16px;
   }
 
+  /* mobile */
+  .language-img {}
+
   .hr {
     border-bottom: 1px solid #dfe1e6;
   }
+
 
   /* contact page */
   .contact-page {
