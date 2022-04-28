@@ -104,7 +104,7 @@ h1 {
   color: #344563;
 }
 
-.connect {
+.connect-home {
   height: 24px;
   color: #7f8cff;
   font-weight: 500;
@@ -259,7 +259,6 @@ h3 {
   display: flex;
   flex-direction: column;
   padding-top: 114px;
-
 }
 
 h2 {
@@ -315,7 +314,7 @@ h2 {
 }
 
 .skill-name {
-  color: #000000;
+  color: #000;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -360,7 +359,6 @@ h2 {
 .language-img {
   margin-left: 12px;
 }
-
 
 .hr {
   border-bottom: 1px solid #dfe1e6;
@@ -534,7 +532,7 @@ textarea {
   }
 
   .intro {
-    height: 98px;
+    /* height: 98px; */
     margin-top: 12px;
     margin-left: 260px;
     margin-right: 260px;
@@ -593,6 +591,7 @@ textarea {
   .reverse-cards {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
   }
 
   .cards .card-text {
