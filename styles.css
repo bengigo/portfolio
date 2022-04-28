@@ -479,12 +479,14 @@ textarea {
   #logo {
     height: 20px;
     text-align: center;
+    font-size: 18px;
     font-weight: 700;
+    line-height: 20px;
     padding: 10px 12px 10px 12px;
     color: #6070ff;
-    margin-top: 14px;
+    margin-top: 25px;
     margin-bottom: 14px;
-    margin-left: 12px;
+    margin-left: 155px;
     text-decoration: none;
   }
 
@@ -495,12 +497,15 @@ textarea {
   }
 
   .desktop-nav {
+    margin-right: 154px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
   }
 
   .desktop-links {
     margin-left: 32px;
+    padding: 10px 12px;
     text-decoration: none;
     color: #344563;
     font-size: ;
@@ -513,30 +518,31 @@ textarea {
     flex-direction: column;
     background-image: url(images/bg-images/desktop/main-bg.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 604px;
+    /* background-size: cover; */
+    /* height: 604px; */
+    height: calc(100% - 72px);
   }
 
   h1 {
-    height: 150px;
+    height: 122px;
     /* width: 327px; */
     color: #172b4d;
-    margin-top: 118px;
     font-weight: 700;
-    margin-left: 24px;
-    font-size: 40px;
-    line-height: 52px;
+    margin-left: 260px;
+    margin-top: 314px;
+    font-size: 48px;
+    line-height: 60px;
   }
 
   .intro {
-    height: 146px;
+    height: 98pxpx;
     /* width: 327px; */
     margin-top: 12px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 260px;
+    margin-right: 260px;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 28px;
     color: #344563;
   }
 
@@ -547,9 +553,9 @@ textarea {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-left: 24px;
+    margin-left: 260px;
     text-decoration: none;
-    border-radius: 4%;
+    /* border-radius: 4%; */
     margin-top: 12px;
   }
 
@@ -563,7 +569,7 @@ textarea {
     height: 20px;
     width: 170.17px;
     margin-top: 12px;
-    margin-left: 24px;
+    margin-left: 260px;
     display: flex;
     justify-content: space-between;
     align-items: center;
