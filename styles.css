@@ -737,6 +737,12 @@ textarea {
     color: #344563;
   }
 
+  .connect-about {
+    margin-left: 24px;
+    text-decoration: none;
+    margin-top: 12px;
+  }
+
   .social-icons-about {
     list-style-type: none;
     height: 40px;
@@ -831,7 +837,7 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -103px;
+    margin-top: -256px;
   }
 
   .form-heading {
