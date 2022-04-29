@@ -47,6 +47,7 @@ nav {
   margin-bottom: 14px;
   margin-left: 12px;
   text-decoration: none;
+  transition: font-size, 5s;
 }
 
 #logo:hover {
