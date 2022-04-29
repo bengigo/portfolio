@@ -51,9 +51,12 @@ nav {
 }
 
 #logo:hover {
-  background-color: #6070ff;
   color: white;
   border-radius: 20%;
+  background: -webkit-linear-gradient(plum, #96CEB4, #D8BFD8, tomato);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 21px;
 }
 
 #burger {
