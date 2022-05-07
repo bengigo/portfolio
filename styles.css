@@ -110,6 +110,7 @@ h1 {
 
 .connect-home {
   height: 24px;
+  width: 119px;
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
@@ -120,7 +121,7 @@ h1 {
   margin-top: 12px;
 }
 
-.connect:hover {
+.connect-home:hover {
   color: white;
   background-color: #6070ff;
 }
@@ -287,12 +288,18 @@ h2 {
 }
 
 .connect-about {
+  width: 119px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   margin-left: 24px;
   text-decoration: none;
   color: #7f8cff;
+}
+
+.connect-about:hover {
+  color: white;
+  background-color: #6070ff;
 }
 
 .social-icons-about {
