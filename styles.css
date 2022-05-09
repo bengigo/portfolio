@@ -39,6 +39,34 @@ nav {
   justify-content: space-between;
 }
 
+a:link {
+ text-decoration: none;
+}
+
+.mobile-menu {
+  display:  flex;
+  flex-direction: column;
+  height: auto; 
+  margin-top: 106px;
+  margin-bottom: auto;
+  margin-left: 28px; 
+}
+
+.mobile-list {
+  margin-bottom: 40px;
+}
+
+.mobile-links {
+ color: white;
+ background: #6070ff;
+ font-size: 32px;
+ font-weight: 600;
+ line-height: 44px; 
+ 
+ 
+
+}
+
 #logo {
   height: 40px;
   text-align: center;
