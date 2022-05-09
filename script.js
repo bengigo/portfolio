@@ -6,7 +6,7 @@ burger.addEventListener('click', () => {
     //toggle class active
     burger.classList.toggle('active');
     mobileNav.classList.toggle('active');
-})
+});
 
 
 // const mobileLinks = document.querySelectorAll('.mobile-links');

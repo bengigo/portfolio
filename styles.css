@@ -39,32 +39,13 @@ nav {
   justify-content: space-between;
 }
 
-a:link {
- text-decoration: none;
-}
+/* a:link {
+  text-decoration: none;
+  border: dotted red;
+} */
 
-.mobile-menu {
-  display:  flex;
-  flex-direction: column;
-  height: auto; 
-  margin-top: 106px;
-  margin-bottom: auto;
-  margin-left: 28px; 
-}
-
-.mobile-list {
+.mobile-list-titles {
   margin-bottom: 40px;
-}
-
-.mobile-links {
- color: white;
- background: #6070ff;
- font-size: 32px;
- font-weight: 600;
- line-height: 44px; 
- 
- 
-
 }
 
 #logo {
@@ -96,6 +77,7 @@ a:link {
   border: none;
   margin-right: 24px;
   cursor: pointer;
+  z-index: 100;
 }
 
 .bar {
@@ -104,6 +86,60 @@ a:link {
   background-color: #6070ff;
   display: block;
   margin: 6px auto;
+}
+
+#burger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
+}
+
+#burger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+#burger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav.active {
+  display: block;
+  left: 0;
+  transition: 0.3s;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 90;
+  background-color: rgba(50, 70, 255, 0.76);
+  opacity: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.mobile-nav-items {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 106px;
+  margin-bottom: auto;
+  margin-left: 28px;
+}
+
+.mobile-nav-titles {
+  margin-bottom: 40px;
+}
+
+.mobile-links {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-decoration: none;
 }
 
 .personal-intro {
