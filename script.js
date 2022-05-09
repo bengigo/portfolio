@@ -11,5 +11,3 @@ mobileLinks.forEach((link) => link.addEventListener('click', () => {
   burger.classList.toggle('active');
   mobileNav.classList.toggle('active');
 }));
-
-console.log('end');
