@@ -17,26 +17,38 @@
                 <a id="logo" href="#">Bengi Genç</a>
                 <ul class="desktop desktop-nav">
                     <li>
-                        <!-- link this to works section -->
                         <a class="desktop-links" href="#">Portfolio</a>
                     </li>
 
                     <li>
-                        <!-- link this to about page -->
                         <a class="desktop-links" href="#">About</a>
                     </li>
 
                     <li>
-                        <!-- link this to contact page -->
                         <a class="desktop-links" href="#">Contact</a>
                     </li>
-
                 </ul>
                 <button class="mobile" id="burger">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </button>
+            </nav>
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-items">
+                    <li class="mobile-list-titles">
+                        <a class="mobile-links" href="#works">Portfolio</a>
+                    </li>
+
+                    <li class="mobile-list-titles">
+                        <a class="mobile-links" href="#about">About</a>
+                    </li>
+
+                    <li class="mobile-list-titles">
+                        <a class="mobile-links" href="#contact-page">Contact</a>
+                    </li>
+                </ul>
+
             </nav>
         </header>
 
@@ -56,8 +68,7 @@
         </section>
     </main>
 
-    <!-- the whole of this section will be grid -->
-    <section class="works">
+    <section id="works">
         <div class="cards work1">
             <div class="card-image">
                 <img class="work-img mobile" src="images/works/mobile-w1.svg" alt="">
@@ -164,7 +175,7 @@
 
     </section>
 
-    <section class="about">
+    <section id="about">
         <div class="about-intro">
             <h2>About<br> Myself</h2>
             <p class="about-info">Hello I’m a software developer! I can help you build a product , feature or website.
@@ -216,7 +227,7 @@
         </div>
     </section>
 
-    <section class="contact-page">
+    <section id="contact-page">
         <h2 class="form-heading">Contact me</h2>
         <p class="form-intro">If you have an application you are interested in developing, a feature that you need built
             or a project that needs coding. I’d love to help with it </p>
@@ -246,6 +257,7 @@
             </ul>
         </form>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>

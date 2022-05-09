@@ -39,6 +39,10 @@ nav {
   justify-content: space-between;
 }
 
+.mobile-list-titles {
+  margin-bottom: 40px;
+}
+
 #logo {
   height: 40px;
   text-align: center;
@@ -68,6 +72,7 @@ nav {
   border: none;
   margin-right: 24px;
   cursor: pointer;
+  z-index: 100;
 }
 
 .bar {
@@ -76,6 +81,64 @@ nav {
   background-color: #6070ff;
   display: block;
   margin: 6px auto;
+}
+
+#burger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
+}
+
+#burger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+#burger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+}
+
+body.fixed {
+  overflow: hidden;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav.active {
+  display: block;
+  left: 0;
+  transition: 0.3s;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 90;
+  background-color: rgba(50, 70, 255, 0.76);
+  opacity: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.mobile-nav-items {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 106px;
+  margin-bottom: auto;
+  margin-left: 28px;
+}
+
+.mobile-nav-titles {
+  margin-bottom: 40px;
+}
+
+.mobile-links {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  text-decoration: none;
 }
 
 .personal-intro {
@@ -141,7 +204,7 @@ a:hover {
   background-color: #6070ff;
 }
 
-.works {
+#works {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -260,7 +323,7 @@ h3 {
   margin-top: 24px;
 }
 
-.about {
+#about {
   background-color: white;
   height: 1263px;
   display: flex;
@@ -388,7 +451,7 @@ h2 {
 }
 
 /* contact page */
-.contact-page {
+#contact-page {
   height: 779px;
   background-color: #6070ff;
   background-image: url(images/bg-images/mobile/contact-page-bg.svg);
@@ -599,7 +662,7 @@ textarea {
     background-color: #6070ff;
   }
 
-  .works {
+  #works {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -734,7 +797,7 @@ textarea {
     margin-top: 40px;
   }
 
-  .about {
+  #about {
     background-color: white;
     height: 1263px;
     display: flex;
@@ -857,7 +920,7 @@ textarea {
   }
 
   /* contact page */
-  .contact-page {
+  #contact-page {
     height: 779px;
     background-color: #6070ff;
     background-image: url(images/bg-images/desktop/contact-page-bg.svg);
