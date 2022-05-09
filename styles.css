@@ -142,6 +142,8 @@ nav {
   text-decoration: none;
 }
 
+
+
 .personal-intro {
   display: flex;
   flex-direction: column;
@@ -204,7 +206,7 @@ a:hover {
   background-color: #6070ff;
 }
 
-.works {
+#works {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -323,7 +325,7 @@ h3 {
   margin-top: 24px;
 }
 
-.about {
+#about {
   background-color: white;
   height: 1263px;
   display: flex;
@@ -445,7 +447,7 @@ h2 {
 }
 
 /* contact page */
-.contact-page {
+#contact-page {
   height: 779px;
   background-color: #6070ff;
   background-image: url(images/bg-images/mobile/contact-page-bg.svg);
@@ -653,7 +655,7 @@ textarea {
     background-color: #6070ff;
   }
 
-  .works {
+  #works {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -788,7 +790,7 @@ textarea {
     margin-top: 40px;
   }
 
-  .about {
+  #about {
     background-color: white;
     height: 1263px;
     display: flex;
@@ -911,7 +913,7 @@ textarea {
   }
 
   /* contact page */
-  .contact-page {
+  #contact-page {
     height: 779px;
     background-color: #6070ff;
     background-image: url(images/bg-images/desktop/contact-page-bg.svg);
