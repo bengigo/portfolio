@@ -12,4 +12,5 @@ burger.addEventListener('click', () => {
 mobileLinks.forEach((link) => link.addEventListener('click', () => {
   burger.classList.toggle('active');
   mobileNav.classList.toggle('active');
+  body.classList.toggle('fixed');
 }));
