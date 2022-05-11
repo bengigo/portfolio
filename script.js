@@ -170,20 +170,24 @@ seeProject.forEach((element) => {
       <img class="work-img mobile" src="${worksInfo[element.id].workImgMobile}" alt="">
       <img class="work-img desktop" src="${worksInfo[element.id].workImgDesktop}" alt="">
     </div>
-      <div class="card-text">
-      <p class="work-info">${worksInfo[element.id].modalDescription}</p>
-      <ul class="tags">
-        <li class="html tag">${worksInfo[element.id].htmlBadge}</li>
-        <li class="css tag">${worksInfo[element.id].cssBadge}</li>
-        <li class="js tag">${worksInfo[element.id].jsBadge}</li>
-        <li class="gh tag">${worksInfo[element.id].ghBadge}</li>
-        <li class="ruby tag">${worksInfo[element.id].rubyBadge}</li>
-        <li class="bootstrap tag">${worksInfo[element.id].bootstrapBadge}</li>
-      </ul>
-        <div class="modal-buttons">
-          <button class="live">See Live <img class="btn-image" src="" alt=""></button>
-          <button class="source">See Source <img class="btn-image" src="" alt=""></button>
-        </div>
+      <div class="modal-card-text">
+        <p class="modal-work-info">${worksInfo[element.id].modalDescription}</p>
+        <div class="tags-buttons">
+          <ul class="modal-tags">
+            <li class="modal-html tag">${worksInfo[element.id].htmlBadge}</li>
+            <li class="modal-css tag">${worksInfo[element.id].cssBadge}</li>
+            <li class="modal-js tag">${worksInfo[element.id].jsBadge}</li>
+          </ul>
+          <ul class="modal-tags">
+            <li class="modal-gh tag">${worksInfo[element.id].ghBadge}</li>
+            <li class="modal-ruby tag">${worksInfo[element.id].rubyBadge}</li>
+            <li class="modal-bootstrap tag">${worksInfo[element.id].bootstrapBadge}</li>
+          </ul>
+          <div class="modal-buttons">
+            <button class="live">See Live <img class="btn-image" src="images/live.png" alt=""></button>
+            <button class="source">See Source <img class="btn-image" src="" alt=""></button>
+          </div>
+        <div>
       </div>
     </section>
     `;
@@ -200,4 +204,3 @@ seeProject.forEach((element) => {
   });
 });
 
-console.log("deliriciim");

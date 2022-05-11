@@ -544,7 +544,64 @@ textarea {
 .modal-header {
   display: flex;
   justify-content: space-between;
-} 
+}
+
+.close {
+  margin-right: 32px;
+}
+
+.modal-card-text {
+  display: flex;
+}
+
+.modal-work-info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 60%;
+}
+
+.modal-work-info {
+  margin-left: 24px;
+}
+
+.tags-buttons {
+  display: flex;
+  flex-direction: column;
+  /* width: 30%; */
+  margin-left: 24px;
+}
+
+.modal-tags {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
+  margin-bottom: 12px;
+
+}
+
+.modal-buttons {
+  border-top: 1px solid #ebecf0;
+  padding-top: 21px;
+}
+
+.live {
+  color: #396DF2;
+  height: 40px;
+  width: 142px;
+  border-radius: 8px;
+  /* padding: 8px, 25px, 8px, 25px; */
+  border-color: #6070ff;
+  background-color: white;
+}
+
+.source {
+  height: 40px;
+  width: 142px;
+  border-radius: 8px;
+  padding: 8px, 25px, 8px, 25px;
+
+}
 
 /* mobile design ends */
 
@@ -1017,4 +1074,3 @@ textarea {
     box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
   }
 }
-
