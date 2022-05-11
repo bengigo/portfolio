@@ -111,3 +111,91 @@ const worksInfo = [
     modalButton2Icon: '',
   },
 ];
+
+const worksSection = document.querySelector('#works');
+
+// need to create html for  cards
+Array.from(worksSection.children).forEach((child, index) => {
+  child.innerHTML = `
+  <div class="${worksInfo[index].cardDisplay}">
+    <div class="card-image">
+      <img class="work-img mobile" src="${worksInfo[index].workImgMobile}" alt="">
+      <img class="work-img desktop" src="${worksInfo[index].workImgDesktop}" alt="">
+    </div>
+    <div class="card-text">
+      <h3>${worksInfo[index].workTitle}</h3>
+      <ul class="job">
+        <li class="company">${worksInfo[index].company}</li>
+        <li class="counter"><img src="images/counter.png" alt=""></li>
+        <li class="job-title">${worksInfo[index].jobTitle}</li>
+        <li class="counter"><img src="images/counter.png" alt=""></li>
+        <li class="year">${worksInfo[index].year}</li>
+      </ul>
+      <p class="work-info">${worksInfo[index].description}</p>
+      <ul class="tags">
+        <li class="html tag">${worksInfo[index].htmlBadge}</li>
+        <li class="ruby tag">${worksInfo[index].rubyBadge}</li>
+        <li class="css tag">${worksInfo[index].cssBadge}</li>
+        <li class="js tag">${worksInfo[index].jsBadge}</li>
+      </ul>
+      <button class="btn btn-project" id="${[index]}">${worksInfo[index].buttonText}</button>
+    </div>
+  </div>
+ `;
+});
+
+// ${worksInfo[i].}
+
+// modal
+const seeProject = document.querySelectorAll('.btn-project');
+seeProject.forEach((element) => {
+  // open and display modal when you click on project button
+  element.addEventListener('click', () => {
+    const modalContainer = document.createElement('dialog');
+    modalContainer.classList.add('modal');
+    modalContainer.innerHTML = `
+    <section class="modals">
+      <div class="modal-header">
+        <h3>${worksInfo[element.id].workTitle}</h3>
+        <img class="close" src="images/close.svg" alt="">
+      </div>
+      <ul class="job">
+        <li class="company">${worksInfo[element.id].company}</li>
+        <li class="counter"><img src="images/counter.png" alt=""></li>
+        <li class="job-title">${worksInfo[element.id].jobTitle}</li>
+        <li class="counter"><img src="images/counter.png" alt=""></li>
+        <li class="year">${worksInfo[element.id].year}</li>
+      </ul>
+      <div class="card-image">
+      <img class="work-img mobile" src="${worksInfo[element.id].workImgMobile}" alt="">
+      <img class="work-img desktop" src="${worksInfo[element.id].workImgDesktop}" alt="">
+    </div>
+      <div class="card-text">
+      <p class="work-info">${worksInfo[element.id].modalDescription}</p>
+      <ul class="tags">
+        <li class="html tag">${worksInfo[element.id].htmlBadge}</li>
+        <li class="css tag">${worksInfo[element.id].cssBadge}</li>
+        <li class="js tag">${worksInfo[element.id].jsBadge}</li>
+        <li class="gh tag">${worksInfo[element.id].ghBadge}</li>
+        <li class="ruby tag">${worksInfo[element.id].rubyBadge}</li>
+        <li class="bootstrap tag">${worksInfo[element.id].bootstrapBadge}</li>
+      </ul>
+        <div class="modal-buttons">
+          <button class="live">See Live <img class="btn-image" src="" alt=""></button>
+          <button class="source">See Source <img class="btn-image" src="" alt=""></button>
+        </div>
+      </div>
+    </section>
+    `;
+    document.body.appendChild(modalContainer);
+    modalContainer.showModal();
+
+    // close modal
+    const closeButtons = document.querySelectorAll('.close');
+    closeButtons.forEach((el) => {
+      el.addEventListener('click', () => {
+        modalContainer.close();
+      });
+    });
+  });
+});
