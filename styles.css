@@ -533,6 +533,19 @@ textarea {
   box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
 }
 
+/* modal */
+.modal {
+  border: 4px dotted red;
+  margin: 77px 142px;
+  height: calc(100vh - 154px);
+}
+
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+} 
+
 /* mobile design ends */
 
 /* dekstop design */
@@ -1004,3 +1017,4 @@ textarea {
     box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
   }
 }
+
