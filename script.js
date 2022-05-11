@@ -199,3 +199,5 @@ seeProject.forEach((element) => {
     });
   });
 });
+
+console.log("deliriciim");
