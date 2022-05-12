@@ -193,15 +193,23 @@ seeProject.forEach((element) => {
     </section>
     `;
     document.body.appendChild(modalContainer);
-    modalContainer.showModal();
+    // modalContainer.showModal();
 
     // close modal
     const closeButtons = document.querySelectorAll('.close');
+
     closeButtons.forEach((el) => {
       el.addEventListener('click', () => {
-        modalContainer.close();
-      });
+      modalContainer.classList.add('hide');
     });
+  });
+
+
+    // closeButtons.forEach((el) => {
+    //   el.addEventListener('click', () => {
+    //     modalContainer.close();
+    //   });
+    // });
   });
 });
 
