@@ -536,7 +536,6 @@ textarea {
 /* modal */
 .modal-container {
   padding: 77px 142px;
-  border: 0px;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -562,8 +561,6 @@ textarea {
   justify-content: space-between;
   background-color: white;
   border-radius: 16px;
-
-
 }
 
 .close {
@@ -595,26 +592,19 @@ textarea {
   line-height: 30px;
   width: 60%;
   background-color: white;
-
-}
-
-.modal-work-info {
   margin-left: 24px;
 }
 
 .tags-buttons {
   display: flex;
   flex-direction: column;
-  /* width: 30%; */
   margin-left: 24px;
 }
 
 .modal-tags {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: flex-start;
   margin-bottom: 12px;
-
 }
 
 .modal-buttons {
@@ -641,7 +631,7 @@ textarea {
 }
 
 .live-link {
-  color: #396DF2;
+  color: #396df2;
   text-decoration: none;
 }
 
@@ -1129,4 +1119,24 @@ textarea {
     -moz-box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
     box-shadow: 1px 7px 20px -7px rgba(96, 112, 255, 0.76);
   }
+
+  /* modal */
+  .modal-card-text {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 59px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+
+  .modal-work-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: white;
+    margin: ;
+  }
+  
 }
