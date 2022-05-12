@@ -144,7 +144,6 @@ Array.from(worksSection.children).forEach((child, index) => {
  `;
 });
 
-
 // modal
 const seeProject = document.querySelectorAll('.btn-project');
 seeProject.forEach((element) => {
@@ -200,10 +199,9 @@ seeProject.forEach((element) => {
 
     closeButtons.forEach((el) => {
       el.addEventListener('click', () => {
-      modalContainer.classList.add('hide');
+        modalContainer.classList.add('hide');
+      });
     });
-  });
-
 
     // closeButtons.forEach((el) => {
     //   el.addEventListener('click', () => {
@@ -212,4 +210,3 @@ seeProject.forEach((element) => {
     // });
   });
 });
-
