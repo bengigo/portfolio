@@ -535,7 +535,7 @@ textarea {
 
 /* modal */
 .modal-container {
-  padding: 77px 142px;
+  padding: 60px 16px 50px 16px;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -575,6 +575,7 @@ textarea {
 
 .modal-img {
   margin: 0 auto;
+  width: 90%;
 }
 
 .modal-card-text {
