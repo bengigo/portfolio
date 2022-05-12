@@ -144,14 +144,12 @@ Array.from(worksSection.children).forEach((child, index) => {
  `;
 });
 
-// ${worksInfo[i].}
 
 // modal
 const seeProject = document.querySelectorAll('.btn-project');
 seeProject.forEach((element) => {
   // open and display modal when you click on project button
   element.addEventListener('click', () => {
-    body.classList.add('blurred');
     const modalContainer = document.createElement('dialog');
     modalContainer.classList.add('modal-container');
     modalContainer.innerHTML = `
