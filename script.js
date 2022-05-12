@@ -150,7 +150,7 @@ const seeProject = document.querySelectorAll('.btn-project');
 seeProject.forEach((element) => {
   // open and display modal when you click on project button
   element.addEventListener('click', () => {
-    const modalContainer = document.createElement('dialog');
+    const modalContainer = document.createElement('section');
     modalContainer.classList.add('modal-container');
     modalContainer.innerHTML = `
     <section class="modal">
