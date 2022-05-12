@@ -151,44 +151,47 @@ const seeProject = document.querySelectorAll('.btn-project');
 seeProject.forEach((element) => {
   // open and display modal when you click on project button
   element.addEventListener('click', () => {
+    body.classList.add('blurred');
     const modalContainer = document.createElement('dialog');
-    modalContainer.classList.add('modal');
+    modalContainer.classList.add('modal-container');
     modalContainer.innerHTML = `
-    <section class="modals">
-      <div class="modal-header">
-        <h3>${worksInfo[element.id].workTitle}</h3>
-        <img class="close" src="images/close.svg" alt="">
+    <section class="modal">
+       
+        <div class="modal-header">
+          <h3>${worksInfo[element.id].workTitle}</h3>
+          <img class="close" src="images/close.svg" alt="">
+        </div>
+        <ul class="job">
+          <li class="company">${worksInfo[element.id].company}</li>
+          <li class="counter"><img src="images/counter.png" alt=""></li>
+          <li class="job-title">${worksInfo[element.id].jobTitle}</li>
+          <li class="counter"><img src="images/counter.png" alt=""></li>
+          <li class="year">${worksInfo[element.id].year}</li>
+        </ul>
+        <div class="card-image">
+        <img class="work-img mobile" src="${worksInfo[element.id].workImgMobile}" alt="">
+        <img class="work-img desktop" src="${worksInfo[element.id].workImgDesktop}" alt="">
       </div>
-      <ul class="job">
-        <li class="company">${worksInfo[element.id].company}</li>
-        <li class="counter"><img src="images/counter.png" alt=""></li>
-        <li class="job-title">${worksInfo[element.id].jobTitle}</li>
-        <li class="counter"><img src="images/counter.png" alt=""></li>
-        <li class="year">${worksInfo[element.id].year}</li>
-      </ul>
-      <div class="card-image">
-      <img class="work-img mobile" src="${worksInfo[element.id].workImgMobile}" alt="">
-      <img class="work-img desktop" src="${worksInfo[element.id].workImgDesktop}" alt="">
-    </div>
-      <div class="modal-card-text">
-        <p class="modal-work-info">${worksInfo[element.id].modalDescription}</p>
-        <div class="tags-buttons">
-          <ul class="modal-tags">
-            <li class="modal-html tag">${worksInfo[element.id].htmlBadge}</li>
-            <li class="modal-css tag">${worksInfo[element.id].cssBadge}</li>
-            <li class="modal-js tag">${worksInfo[element.id].jsBadge}</li>
-          </ul>
-          <ul class="modal-tags">
-            <li class="modal-gh tag">${worksInfo[element.id].ghBadge}</li>
-            <li class="modal-ruby tag">${worksInfo[element.id].rubyBadge}</li>
-            <li class="modal-bootstrap tag">${worksInfo[element.id].bootstrapBadge}</li>
-          </ul>
-          <div class="modal-buttons">
-            <button class="live">See Live <img class="btn-image" src="images/live.png" alt=""></button>
-            <button class="source">See Source <img class="btn-image" src="" alt=""></button>
-          </div>
-        <div>
-      </div>
+        <div class="modal-card-text">
+          <p class="modal-work-info">${worksInfo[element.id].modalDescription}</p>
+          <div class="tags-buttons">
+            <ul class="modal-tags">
+              <li class="modal-html tag">${worksInfo[element.id].htmlBadge}</li>
+              <li class="modal-css tag">${worksInfo[element.id].cssBadge}</li>
+              <li class="modal-js tag">${worksInfo[element.id].jsBadge}</li>
+            </ul>
+            <ul class="modal-tags">
+              <li class="modal-gh tag">${worksInfo[element.id].ghBadge}</li>
+              <li class="modal-ruby tag">${worksInfo[element.id].rubyBadge}</li>
+              <li class="modal-bootstrap tag">${worksInfo[element.id].bootstrapBadge}</li>
+            </ul>
+            <div class="modal-buttons">
+              <button class="live">See Live <img class="btn-image" src="images/live.png" alt="Live Preview"></button>
+              <button class="source">See Source <img class="btn-image" src="images/source.svg" alt="Source Code"></button>
+            </div>
+          <div>
+        </div>
+       
     </section>
     `;
     document.body.appendChild(modalContainer);
