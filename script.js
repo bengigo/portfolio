@@ -183,8 +183,8 @@ seeProject.forEach((element) => {
               <li class="modal-bootstrap tag">${worksInfo[element.id].bootstrapBadge}</li>
             </ul>
             <div class="modal-buttons">
-              <button class="live moda-btn">See Live <img class="btn-image" src="images/live.png" alt="Live Preview"></button>
-              <button class="source modal-btn">See Source <img class="btn-image" src="images/source.svg" alt="Source Code"></button>
+              <a class="live-link" href=""><button class="live modal-btn">See Live <img class="btn-image" src="images/live.png" alt="Live Preview"></button></a>
+              <a class="source-link" href=""><button class="source modal-btn">See Source <img class="btn-image" src="images/source.svg" alt="Source Code"></button></a>
             </div>
           <div>
         </div>
