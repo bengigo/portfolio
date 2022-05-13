@@ -229,3 +229,6 @@ form.addEventListener('submit', (event) => {
     error.style.visibility = 'hidden';
   }
 });
+
+const userName = document.querySelector(‘#user-name’);
+const userMsg = document.querySelector(‘#user-message’);
