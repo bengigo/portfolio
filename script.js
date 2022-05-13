@@ -114,7 +114,7 @@ const worksInfo = [
 
 const worksSection = document.querySelector('#works');
 
-// need to create html for  cards
+//create html structure for cards
 Array.from(worksSection.children).forEach((child, index) => {
   child.innerHTML = `
   <div class="${worksInfo[index].cardDisplay}">
@@ -245,7 +245,6 @@ userEmail.addEventListener('focusout', dataStorage);
 userMessage.addEventListener('focusout', dataStorage);
 
 const userDataObject = JSON.parse(localStorage.getItem('visitor'));
-
 
 if(userDataObject) {
   userName.value = userDataObject.Name;
