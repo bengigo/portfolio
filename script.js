@@ -114,7 +114,7 @@ const worksInfo = [
 
 const worksSection = document.querySelector('#works');
 
-//create html structure for cards
+// create html structure for cards
 Array.from(worksSection.children).forEach((child, index) => {
   child.innerHTML = `
   <div class="${worksInfo[index].cardDisplay}">
@@ -201,12 +201,10 @@ seeProject.forEach((element) => {
         modalContainer.classList.add('hide');
       });
     });
-
   });
 });
 
-
-//form validation
+// form validation
 const form = document.querySelector('#form');
 const email = document.querySelector('#user-email');
 const error = document.querySelector('#error-msg');
@@ -226,7 +224,7 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-//local storage
+// local storage
 const userName = document.querySelector('#user-name');
 const userEmail = document.querySelector('#user-email');
 const userMessage = document.querySelector('#user-message');
@@ -246,7 +244,7 @@ userMessage.addEventListener('focusout', dataStorage);
 
 const userDataObject = JSON.parse(localStorage.getItem('visitor'));
 
-if(userDataObject) {
+if (userDataObject) {
   userName.value = userDataObject.Name;
   userEmail.value = userDataObject.Email;
   userMessage.value = userDataObject.Message;
