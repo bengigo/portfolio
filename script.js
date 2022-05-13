@@ -217,7 +217,6 @@ const error = document.querySelector('#error-msg');
 
 error.style.visibility = 'hidden';
 
-
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
