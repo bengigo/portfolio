@@ -663,7 +663,6 @@ textarea {
   text-decoration: none;
 }
 
-/* mobile design ends */
 #error-msg {
   font-size: 18px;
   font-weight: 400;
@@ -675,6 +674,9 @@ textarea {
   border-radius: 8px;
   margin: auto 24px;
 }
+
+/* mobile design ends */
+
 
 /* dekstop design */
 
