@@ -192,7 +192,6 @@ seeProject.forEach((element) => {
     </section>
     `;
     document.body.appendChild(modalContainer);
-    // modalContainer.showModal();
 
     // close modal
     const closeButtons = document.querySelectorAll('.close');
@@ -203,14 +202,11 @@ seeProject.forEach((element) => {
       });
     });
 
-    // closeButtons.forEach((el) => {
-    //   el.addEventListener('click', () => {
-    //     modalContainer.close();
-    //   });
-    // });
   });
 });
 
+
+//form validation
 const form = document.querySelector('#form');
 const email = document.querySelector('#user-email');
 const error = document.querySelector('#error-msg');
@@ -230,5 +226,29 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-const userName = document.querySelector(‘#user-name’);
-const userMsg = document.querySelector(‘#user-message’);
+//local storage
+const userName = document.querySelector('#user-name');
+const userEmail = document.querySelector('#user-email');
+const userMessage = document.querySelector('#user-message');
+
+function dataStorage() {
+  const visitor = {
+    Name: userName.value,
+    Email: userEmail.value,
+    Message: userMessage.value,
+  };
+  localStorage.setItem('visitor', JSON.stringify(visitor));
+}
+
+userName.addEventListener('focusout', dataStorage);
+userEmail.addEventListener('focusout', dataStorage);
+userMessage.addEventListener('focusout', dataStorage);
+
+const userDataObject = JSON.parse(localStorage.getItem('visitor'));
+
+
+if(userDataObject) {
+  userName.value = userDataObject.Name;
+  userEmail.value = userDataObject.Email;
+  userMessage.value = userDataObject.Message;
+}
