@@ -134,7 +134,7 @@
         <p class="form-intro">If you have an application you are interested in developing, a feature that you need
             built
             or a project that needs coding. I’d love to help with it </p>
-        <form action="https://formspree.io/f/mayvlell" method="post">
+        <form id="form" action="https://formspree.io/f/mayvlell" method="post">
             <ul class="contact-form">
                 <li>
                     <label for="user-name"></label>
@@ -153,6 +153,8 @@
                     <textarea id="user-message" name="user-message" required placeholder="Write your message here"
                         maxlength="500"></textarea>
                 </li>
+
+                <li id="error-msg" class="error" aria-live="polite"></li>
 
                 <li>
                     <button class="submit-button" type="submit">Get In Touch</button>

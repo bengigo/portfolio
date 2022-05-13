@@ -663,6 +663,18 @@ textarea {
   text-decoration: none;
 }
 
+#error-msg {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  background-color: tomato;
+  padding: 3px 3px;
+  border-radius: 8px;
+  margin: auto 24px;
+}
+
 /* mobile design ends */
 
 /* dekstop design */
@@ -1164,5 +1176,17 @@ textarea {
   .modal-gh,
   .modal-ruby {
     display: block;
+  }
+
+  /* form validation error message */
+  #error-msg {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    background-color: tomato;
+    padding: 3px 10px;
+    border-radius: 8px;
   }
 }
