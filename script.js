@@ -210,3 +210,23 @@ seeProject.forEach((element) => {
     // });
   });
 });
+
+const form = document.querySelector('#form');
+const email = document.querySelector('#user-email');
+const error = document.querySelector('#error-msg');
+
+error.style.visibility = 'hidden';
+
+
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    error.style.visibility = 'visible';
+    error.innerHTML = 'Email can only contain lowercase letters.';
+    setTimeout(() => {
+      error.style.visibility = 'hidden';
+    }, 4000);
+  } else {
+    error.style.visibility = 'hidden';
+  }
+});
