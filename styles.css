@@ -664,6 +664,17 @@ textarea {
 }
 
 /* mobile design ends */
+#error-msg {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align:  center;
+  color:  #ebebff;
+  background-color: tomato;
+  padding: 3px 3px;
+  border-radius: 8px;
+  margin: auto 24px;
+}
 
 /* dekstop design */
 
