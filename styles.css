@@ -16,13 +16,14 @@
 }
 
 body {
-  background: linear-gradient(
-    to right,
-    rgb(237, 161, 193) 0%,
-    rgb(250, 178, 172) 25.5%,
-    rgb(190, 228, 210) 62.3%,
-    rgb(215, 248, 247) 93.8%
-  );
+  background:
+    linear-gradient(
+      to right,
+      rgb(237, 161, 193) 0%,
+      rgb(250, 178, 172) 25.5%,
+      rgb(190, 228, 210) 62.3%,
+      rgb(215, 248, 247) 93.8%
+    );
 }
 
 a {
@@ -41,14 +42,14 @@ header {
   height: 100px;
   padding: 30px 70px;
   align-items: center;
-  background: linear-gradient(
-    to right,
-    rgb(237, 161, 193) 0%,
-    rgb(250, 178, 172) 25.5%,
-    rgb(190, 228, 210) 62.3%,
-    rgb(215, 248, 247) 93.8%
-  );
-
+  background:
+    linear-gradient(
+      to right,
+      rgb(237, 161, 193) 0%,
+      rgb(250, 178, 172) 25.5%,
+      rgb(190, 228, 210) 62.3%,
+      rgb(215, 248, 247) 93.8%
+    );
 }
 
 .menu {
@@ -86,7 +87,6 @@ main {
   height: 100vh;
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 
 #greet {
@@ -119,10 +119,6 @@ h1 {
   height: 20px;
 }
 
-#works {
-  border: 1px solid white;
-}
-
 #contact-page {
   height: 100vh;
   display: flex;
@@ -130,7 +126,6 @@ h1 {
 }
 
 #contact {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,7 +145,7 @@ form {
 }
 
 input {
-  width: 40vw;;
+  width: 40vw;
   height: 34px;
   padding: 5px;
   border: none;
@@ -159,7 +154,7 @@ input {
 
 textarea {
   height: 70px;
-  width: 40vw;;
+  width: 40vw;
   padding: 5px;
   border: none;
   border-radius: 8px;
@@ -177,7 +172,5 @@ form ul {
 form button {
   border-radius: 8px;
   padding: 10px 15px;
-  /* background: rgb(190, 228, 210); */
   border: none;
-  
 }
