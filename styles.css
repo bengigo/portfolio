@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+body {
+  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+}
+
 @media screen and (min-width: 1024px) {
   .mobile {
     display: none;
@@ -17,11 +21,19 @@ a {
   text-decoration: none;
 }
 
+#home {
+  height: 100vh;
+}
+
 header {
+  position: fixed;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
+  height: 100px;
   padding: 30px 70px;
   align-items: center;
+  /* background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%); */
 }
 
 .menu {
@@ -53,4 +65,31 @@ header {
   height: 2px;
   display: block;
   margin: 6px 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 70vw;
+  margin: auto;
+}
+
+#greet {
+  height: 30vh;  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  /* margin: auto; */
+}
+
+#greet p {
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
 }
