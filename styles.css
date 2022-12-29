@@ -5,6 +5,8 @@
   -webkit-box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Nunito', sans-serif;
+  color: #233142;
 }
 
 @media screen and (min-width: 1024px) {
@@ -84,10 +86,11 @@ main {
   height: 100vh;
   display: flex;
   align-items: center;
+  border: 1px solid red;
 }
 
 #greet {
-  height: 30vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,21 +115,25 @@ main {
   height: 20px;
 }
 
+#works {
+  border: 1px solid white;
+}
+
 #contact-page {
   height: 100vh;
   display: flex;
   align-items: center;
-  border: 1px solid white;
 }
 
 #contact {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   margin: auto;
   width: 70vw;
+  height: 50vh;
 }
 
 #contact p {
@@ -149,7 +156,7 @@ textarea {
 
 form ul {
   list-style: none;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   height: 100%;
   display: flex;
   flex-direction: column;
