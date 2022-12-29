@@ -1,168 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bengi Genç</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Bengi Genç</title>
 </head>
-
 <body>
-    <main>
-        <header>
-            <a id="logo" href="#">Bengi Genç</a>
-            <nav>
-                <ul class="desktop desktop-nav">
-                    <li>
-                        <a class="desktop-links" href="#works">Portfolio</a>
-                    </li>
-
-                    <li>
-                        <a class="desktop-links" href="#about">About</a>
-                    </li>
-
-                    <li>
-                        <a class="desktop-links" href="#contact-page">Contact</a>
-                    </li>
-                </ul>
-                <button class="mobile" id="burger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-            </nav>
-            <nav class="mobile-nav">
-                <ul class="mobile-nav-items">
-                    <li class="mobile-list-titles">
-                        <a class="mobile-links" href="#works">Portfolio</a>
-                    </li>
-
-                    <li class="mobile-list-titles">
-                        <a class="mobile-links" href="#about">About</a>
-                    </li>
-
-                    <li class="mobile-list-titles">
-                        <a class="mobile-links" href="#contact-page">Contact</a>
-                    </li>
-                </ul>
-
-            </nav>
-        </header>
-
-        <section class="personal-intro">
-            <h1>I’m Bengi <br>Glad to see you!</h1>
-            <p class="intro">I’m a software developer! I can help you build a product , feature or website Look
-                through
-                some of my work and experience! If you like what you see and have a project you need coded, don’t
-                hestiate to contact me.</p>
-            <a class="connect-home" href="#">LET'S CONNECT</a>
-            <ul class="social-icons-main">
-                <li><a href="#"><img src="images/social-images/twitter.png" alt="twitter"></a></li>
-                <li><a href="#"><img src="images/social-images/inkedin.png" alt="linkedin"></a></li>
-                <li><a href="#"><img src="images/social-images/medium.png" alt="medium"></a></li>
-                <li><a href="#"><img src="images/social-images/github.png" alt="github"></a></li>
-                <li><a href="#"><img src="images/social-images/angellist.png" alt="angellist"></a></li>
+    <header>
+        <div id="logo"><a href="#">Bengi Genç</a></div>
+        <nav>
+            <ul class="menu">
+                <li class="nav-link"><a href="#">Portfolio</a></li>
+                <li class="nav-link"><a href="#">About</a></li>
+                <li class="nav-link"><a href="#">Contact</a></li>
             </ul>
-        </section>
-    </main>
-
-    <section id="works">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
-
-    <section id="about">
-        <div class="about-intro">
-            <h2>About<br> Myself</h2>
-            <p class="about-info">Hello I’m a software developer! I can help you build a product , feature or
-                website.
-                Look
-                through some of my work and experience! If you like what you see and have a project you need coded,
-                don’t
-                hestiate to contact me.</p>
-            <a class="connect-about" href="#">LET'S CONNECT</a>
-            <ul class="social-icons-about">
-                <li><a href="#"><img src="images/social-images/twitter.png" alt="twitter"></a></li>
-                <li><a href="#"><img src="images/social-images/inkedin.png" alt="linkedin"></a></li>
-                <li><a href="#"><img src="images/social-images/medium.png" alt="medium"></a></li>
-                <li><a href="#"><img src="images/social-images/github.png" alt="github"></a></li>
-                <li><a href="#"><img src="images/social-images/angellist.png" alt="angellist"></a></li>
-            </ul>
-            <button class="btn btn-resume">Get my resume</button>
-        </div>
-        <div class="about-list">
-            <ul class="skills">
-                <li>
-                    <div class="skill-li">
-                        <p class="skill-name">Languages</p>
-                        <img class="arrow-down" src="images/arrow-down.png" alt="">
-                    </div>
-                    <ul class="language-list">
-                        <li class="language">
-                            <img class="language-img" src="images/technologies/js.svg" alt="js">
-                            <p class="language-name">JavaScript</p>
-                        </li>
-                        <li class="language">
-                            <img class="language-img" src="images/technologies/html.svg" alt="html">
-                            <p class="language-name">HTML</p>
-                        </li>
-                        <li class="language">
-                            <img class="language-img" src="images/technologies/css.svg" alt="css">
-                            <p class="language-name">CSS</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="hr skill-li">
-                    <p class="skill-name">Frameworks</p>
-                    <img class="arrow-right" src="images/arrow-right.png" alt="">
-                </li>
-                <li class="hr skill-li">
-                    <p class="skill-name">Skills</p>
-                    <img class="arrow-right" src="images/arrow-right.png" alt="">
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact-page">
-        <h2 class="form-heading">Contact me</h2>
-        <p class="form-intro">If you have an application you are interested in developing, a feature that you need
-            built
-            or a project that needs coding. I’d love to help with it </p>
-        <form id="form" action="https://formspree.io/f/mayvlell" method="post">
-            <ul class="contact-form">
-                <li>
-                    <label for="user-name"></label>
-                    <input class="contact-input" type="text" id="user-name" name="user-name" required maxlength="30"
-                        placeholder="River">
-                </li>
-
-                <li>
-                    <label for="user-email"></label>
-                    <input class="contact-input" type="email" id="user-email" name="user-email" required
-                        placeholder="melidypond@mail.com">
-                </li>
-
-                <li>
-                    <label for="user-message"></label>
-                    <textarea id="user-message" name="user-message" required placeholder="Write your message here"
-                        maxlength="500"></textarea>
-                </li>
-
-                <li id="error-msg" class="error" aria-live="polite"></li>
-
-                <li>
-                    <button class="submit-button" type="submit">Get In Touch</button>
-                </li>
-            </ul>
-        </form>
-    </section>
-    <script src="script.js"></script>
+            
+            <button id="burger" class="mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+    
 </body>
-
 </html>
