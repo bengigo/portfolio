@@ -147,11 +147,17 @@ form {
 input {
   width: 25vw;
   height: 34px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
 }
 
 textarea {
   height: 70px;
   width: 25vw;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
 }
 
 form ul {
@@ -166,6 +172,8 @@ form ul {
 
 form button {
   border-radius: 8px;
-  padding: 6px 9px;
-  background: none;
+  padding: 10px 15px;
+  /* background: rgb(190, 228, 210); */
+  border: none;
+  
 }
