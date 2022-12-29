@@ -77,7 +77,6 @@ main {
   height: 100vh;
   display: flex;
   align-items: center;
-  /* background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%); */
 }
 
 #greet {
@@ -101,5 +100,56 @@ main {
   width: 80px;
 }
 
+#contact-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+
+
+}
+
 #contact {
+border: 1px solid red;
+/* height: 30vh; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin: auto;
+width: 70vw;
+
+}
+
+form {
+  height: 30vh;
+}
+
+input {
+  width: 25vw;
+  height: 34px;
+}
+
+textarea {
+  height: 70px;
+  width: 25vw;
+
+}
+
+form ul {
+  list-style: none;
+  border: 1px solid yellow;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+form button {
+ border-radius: 8px;
+ padding: 6px 9px;
+ background: none;
 }
