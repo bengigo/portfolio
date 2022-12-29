@@ -99,6 +99,10 @@ main {
   width: 70vw;
 }
 
+h1 {
+  text-align: center;
+}
+
 #greet p {
   text-align: center;
 }
@@ -142,10 +146,11 @@ main {
 
 form {
   height: 30vh;
+  width: 70vw;
 }
 
 input {
-  width: 25vw;
+  width: 40vw;;
   height: 34px;
   padding: 5px;
   border: none;
@@ -154,7 +159,7 @@ input {
 
 textarea {
   height: 70px;
-  width: 25vw;
+  width: 40vw;;
   padding: 5px;
   border: none;
   border-radius: 8px;
@@ -162,7 +167,6 @@ textarea {
 
 form ul {
   list-style: none;
-  /* border: 1px solid yellow; */
   height: 100%;
   display: flex;
   flex-direction: column;
