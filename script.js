@@ -88,3 +88,23 @@ const worksData = [
   },
 ];
 
+worksData.forEach((work) => {
+  const cardContainer = document.createElement('div');
+  portfolioContainer.appendChild(cardContainer);
+  cardContainer.textContent = 'bıktım';
+  cardContainer.innerHTML = `
+  <h3>title</h3>
+  <img src="${work.mobileImg}" alt="">
+  <img src="${work.desktopImg}" alt="">
+  <p>${work.description}</p
+  <ul>
+    <li>${work.badge1}</li>
+    <li>${work.badge2}</li>
+    <li>${work.badge3}</li>
+    <li>${work.badge4}</li>
+  </ul>
+  <a href="${work.live}"><img src="" alt=""></a>
+  source
+  <a href="${work.source}"><img src="" alt=""></a>
+  `
+});
