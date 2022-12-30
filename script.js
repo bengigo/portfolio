@@ -15,5 +15,5 @@ navLinks.forEach((link) => link.addEventListener('click', () => {
   burger.classList.toggle('active');
   menuContainer.classList.toggle('active');
   menu.classList.toggle('active');
-
+  body.classList.toggle('fixed');
 }))
