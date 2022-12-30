@@ -24,6 +24,7 @@ body {
       rgb(190, 228, 210) 62.3%,
       rgb(215, 248, 247) 93.8%
     );
+    scroll-behavior: smooth;
 }
 
 body.fixed {

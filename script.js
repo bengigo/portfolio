@@ -12,8 +12,8 @@ burger.addEventListener('click', () => {
 });
 
 navLinks.forEach((link) => link.addEventListener('click', () => {
-  burger.classList.toggle('active');
-  menuContainer.classList.toggle('active');
+  burger.classList.remove('active');
+  menuContainer.classList.remove('active');
   menu.classList.toggle('active');
   body.classList.toggle('fixed');
 }));
