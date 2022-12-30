@@ -180,6 +180,10 @@ h1 {
   border: 1px solid white;
 }
 
+.card-container {
+  border: 1px solid yellowgreen;
+}
+
 #contact-page {
   height: 100vh;
   display: flex;

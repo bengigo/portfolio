@@ -21,7 +21,7 @@ navLinks.forEach((link) => link.addEventListener('click', () => {
 const worksData = [
   {
     title: 'Leaderboard',
-    mobileImg: '',
+    mobileImg: 'assets/works/desktop/leaderboard.png',
     desktopImg: 'assets/works/desktop/leaderboard.png',
     description:
       'A web app for you and your friends to add your scores of your favorite game -Terraria. Happy gaming!',
@@ -48,7 +48,7 @@ const worksData = [
   {
     title: 'Why Am I Poor',
     mobileImg: 'assets/works/mobile/why-am-i-poor.png',
-    desktopImg: '',
+    desktopImg: 'assets/works/mobile/why-am-i-poor.png',
     description:
       '"Why am I poor?" is the question you ask yourself every month, and this application is here to help you get an answer. You can create a private account, your expenses are only visible to you. Start by creating groups of your usual expenses (e.g "Bills", "Kitchen"...) and adding single expenses belong to your chosen group.',
     badge1: 'Ruby on Rails',
@@ -89,20 +89,16 @@ const worksData = [
 worksData.forEach((work) => {
   const cardContainer = document.createElement('div');
   portfolioContainer.appendChild(cardContainer);
-  cardContainer.textContent = 'bıktım';
+  cardContainer.classList.add("card-container")
   cardContainer.innerHTML = `
-  <h3>title</h3>
-  <img src="${work.mobileImg}" alt="">
+  <h3>${work.title}</h3>
+  <img class="mobile" src="${work.mobileImg}" alt="">
   <img src="${work.desktopImg}" alt="">
-  <p>${work.description}</p
   <ul>
     <li>${work.badge1}</li>
     <li>${work.badge2}</li>
     <li>${work.badge3}</li>
     <li>${work.badge4}</li>
   </ul>
-  <a href="${work.live}"><img src="" alt=""></a>
-  source
-  <a href="${work.source}"><img src="" alt=""></a>
   `;
 });
