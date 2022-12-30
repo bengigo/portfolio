@@ -176,6 +176,10 @@ h1 {
   height: 20px;
 }
 
+#works {
+  border: 1px solid white;
+}
+
 #contact-page {
   height: 100vh;
   display: flex;
