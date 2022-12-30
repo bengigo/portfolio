@@ -26,6 +26,10 @@ body {
     );
 }
 
+body.fixed {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
