@@ -77,14 +77,11 @@ worksData.forEach((work) => {
   const cardContainer = document.createElement('div');
   portfolioContainer.appendChild(cardContainer);
   cardContainer.classList.add('card-container');
-
   cardContainer.innerHTML = `
-
   <div class="img-container">
     <img class="work-img" src="${work.desktopImg}" alt="">
   </div>
   <h3>${work.title}</h3>
-
   <ul class="tags">
     <li>${work.tag1}</li>
     <li>${work.tag2}</li>
@@ -113,16 +110,28 @@ imgContainers.forEach((container, index) => {
 });
 
 const cardContainers = document.querySelectorAll('.card-container')
-cardContainers.forEach((card) => {
-  card.addEventListener('click', ()=> {
-    // click on cards and open modal
-    // create a container for details modal
-    const modalContainer = document.createElement('div');
-    modalContainer.classList.add('modal');
-    document.body.appendChild(modalContainer)
-    modalContainer.innerHTML = `
-    <p>hello</p>
-    
-    `
+cardContainers.forEach((card, index) => {
+  card.addEventListener('click', () => {
+    // alert(index);
+    const modal = document.createElement('div');
+    card.appendChild(modal);
+    console.log(worksData[index]);
+    modal.innerHTML = `
+    <img class="work-img" src="${worksData.desktopImg}" alt="">
+    <h3>${worksData[index].title}</h3>
+    <p>${worksData[index].description}</p>
+    <ul class="tags">
+      <li>${worksData[index].tag1}</li>
+      <li>${worksData[index].tag2}</li>
+      <li>${worksData[index].tag3}</li>
+      <li>${worksData[index].tag4}</li>
+    </ul>
+    <ul>
+      <li><a href="https://bengigo.github.io/portfolio/">See Live</a></li>
+      <li><a href="https://github.com/bengigo/portfolio">See Source</a></li>
+    </ul>
+    `;
+
   })
 })
+
