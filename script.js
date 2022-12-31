@@ -117,6 +117,7 @@ cardContainers.forEach((card, index) => {
     card.appendChild(modal);
     console.log(worksData[index]);
     modal.innerHTML = `
+    <img class="close" src="assets/icons/close.svg"</img>
     <img class="work-img" src="${worksData.desktopImg}" alt="">
     <h3>${worksData[index].title}</h3>
     <p>${worksData[index].description}</p>
