@@ -27,10 +27,10 @@ const worksData = [
     desktopImg: "assets/works/desktop/leaderboard.png",
     description:
       "A web app for you and your friends to add your scores of your favorite game -Terraria. Happy gaming!",
-    badge1: "HTML",
-    badge2: "CSS",
-    badge3: "JavaScript",
-    badge4: "Webpack",
+    tag1: "HTML",
+    tag2: "CSS",
+    tag3: "JavaScript",
+    tag4: "Webpack",
     live: "https://bengigo.github.io/leaderboard/",
     source: "https://github.com/bengigo/leaderboard",
   },
@@ -40,10 +40,10 @@ const worksData = [
     desktopImg: "assets/works/desktop/gastronomy-events.png",
     description:
       "A website to give information about a gastronomy-related camping event. You can find information about the program and speakers. Built with HTML-CSS-JavaScript",
-    badge1: "HTML",
-    badge2: "CSS",
-    badge3: "JavaScript",
-    badge4: "",
+    tag1: "HTML",
+    tag2: "CSS",
+    tag3: "JavaScript",
+    tag4: "",
     live: "https://bengigo.github.io/gastronomy-camp-2022/",
     source: "https://github.com/bengigo/gastronomy-camp-2022",
   },
@@ -53,10 +53,10 @@ const worksData = [
     desktopImg: "assets/works/desktop/todo-list.png",
     description:
       "A ToDo List with a simple design. Ideal for keeping track of simple daily tasks.",
-    badge1: "HTML",
-    badge2: "CSS",
-    badge3: "JavaScript",
-    badge4: "Webpack",
+    tag1: "HTML",
+    tag2: "CSS",
+    tag3: "JavaScript",
+    tag4: "Webpack",
     live: "https://bengigo.github.io/to-do-list/",
     source: "https://github.com/bengigo/to-do-list",
   },
@@ -66,10 +66,10 @@ const worksData = [
     desktopImg: "assets/works/desktop/awesome-books.png",
     description:
       "A single page application to create a list of a book collection. Can be used to create a collection of read books. Or as a wishlist of books.",
-    badge1: "HTML",
-    badge2: "CSS",
-    badge3: "JavaScript",
-    badge4: "",
+    tag1: "HTML",
+    tag2: "CSS",
+    tag3: "JavaScript",
+    tag4: "",
     live: "https://bengigo.github.io/awesome-books-modules/",
     source: "https://github.com/bengigo/awesome-books-modules",
   },
@@ -89,11 +89,11 @@ worksData.forEach((work) => {
   </div>
   <h3>${work.title}</h3>
 
-  <ul>
-    <li>${work.badge1}</li>
-    <li>${work.badge2}</li>
-    <li>${work.badge3}</li>
-    <li>${work.badge4}</li>
+  <ul class="tags">
+    <li>${work.tag1}</li>
+    <li>${work.tag2}</li>
+    <li>${work.tag3}</li>
+    <li>${work.tag4}</li>
   </ul>
   `;
 });

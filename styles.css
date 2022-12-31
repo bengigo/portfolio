@@ -185,12 +185,13 @@ h1 {
   }
 }
 
-
-
 .card-container {
   border: 1px solid yellowgreen;
   width: 32vw;
   height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 1024px) {
@@ -210,6 +211,24 @@ h1 {
     height: 25vh;
   }
 }
+
+h3 {
+  text-align: center;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.tags li {
+  margin: 2px;
+  padding: 5px;
+  border-radius: 43%;
+}
+
+
 /* contact page below */
 
 #contact-page {
