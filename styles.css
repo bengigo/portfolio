@@ -172,12 +172,20 @@ h1 {
 
 /* works page below */
 
-#works {
-  border: 1px solid white;
-  display: grid;
-  grid: auto / 40vw 40vw;
-  justify-content: center;
+@media screen and (min-width: 1024px) {
+  #works {
+    border: 1px solid white;
+    display: grid;
+    grid: auto / 40vw 40vw;
+    justify-content: center;
+  }
+
+  .card-container:nth-child(even) {
+    margin-top: 150px;
+  }
 }
+
+
 
 .card-container {
   border: 1px solid yellowgreen;
