@@ -111,3 +111,7 @@ const bgColors = [
   "#719192",
 ];
 
+const imgContainers = document.querySelectorAll('.img-container');
+imgContainers.forEach((container, index) => {
+  container.style.backgroundColor = bgColors[index];
+})
