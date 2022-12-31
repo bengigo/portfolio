@@ -81,6 +81,7 @@ worksData.forEach((work) => {
   cardContainer.classList.add("card-container");
 
   cardContainer.innerHTML = `
+
   <div class="img-container">
     <img class="work-img" src="${work.desktopImg}" alt="">
   </div>
