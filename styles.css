@@ -193,13 +193,15 @@ h1 {
   height: 75vh;
 }
 
-.img-container {
-  width: 32vw;
-  height: 60vh;
-  border: 1px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (min-width: 1024px) {
+  .img-container {
+    width: 32vw;
+    height: 60vh;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
