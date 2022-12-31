@@ -9,12 +9,6 @@
   color: #233142;
 }
 
-@media screen and (min-width: 1024px) {
-  .mobile {
-    display: none;
-  }
-}
-
 body {
   background:
     linear-gradient(
@@ -62,8 +56,6 @@ nav.active {
   justify-content: space-between;
   padding: 30px 70px;
   left: 0;
-
-  /* transition: 0.3s; */
   position: fixed;
   top: 0;
   right: 100%;
@@ -85,12 +77,16 @@ nav.active {
 }
 
 nav.active #menu {
-  border: 1px solid white;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px;
+}
+
+.tags li {
+  margin: 2px;
+  padding: 5px;
 }
 
 #menu li {
@@ -176,6 +172,78 @@ h1 {
   height: 20px;
 }
 
+/* works page below */
+
+#works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  width: 70vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.img-container {
+  width: 70vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-img {
+  width: 55vw;
+}
+
+@media screen and (min-width: 1024px) {
+  #works {
+    display: grid;
+    grid: auto / 40vw 40vw;
+    justify-content: center;
+  }
+
+  .card-container {
+    width: 32vw;
+    margin: auto;
+  }
+
+  .card-container:nth-child(even) {
+    margin-top: 150px;
+  }
+
+  .img-container {
+    width: 32vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work-img {
+    width: 25vw;
+    height: 25vh;
+  }
+}
+
+h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* contact page below */
 #contact-page {
   height: 100vh;
   display: flex;
@@ -230,4 +298,16 @@ form button {
   border-radius: 8px;
   padding: 10px 15px;
   border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
 }
