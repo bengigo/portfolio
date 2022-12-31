@@ -37,7 +37,7 @@ const worksData = [
     mobileImg: 'assets/works/mobile/gastronomy-events.png',
     desktopImg: 'assets/works/desktop/gastronomy-events.png',
     description:
-      'A website to give information about a gastronomy-related camping event. You can find information about the program and speakers. Built with HTML-CSS-JavaScript',
+      'A website to give information about a gastronomy-related camping event. You can find information about the program and speakers.',
     tag1: 'HTML',
     tag2: 'CSS',
     tag3: 'JavaScript',
@@ -112,13 +112,15 @@ imgContainers.forEach((container, index) => {
 const cardContainers = document.querySelectorAll('.card-container')
 cardContainers.forEach((card, index) => {
   card.addEventListener('click', () => {
-    // alert(index);
     const modal = document.createElement('div');
+    modal.classList.add('modal');
     card.appendChild(modal);
     console.log(worksData[index]);
     modal.innerHTML = `
-    <img class="close" src="assets/icons/close.svg"</img>
-    <img class="work-img" src="${worksData.desktopImg}" alt="">
+    <div class="icon-container">
+      <img class="close" src="assets/icons/close.svg"</img>
+    </div>
+    <img class="work-img" src="${worksData[index].desktopImg}" alt="">
     <h3>${worksData[index].title}</h3>
     <p>${worksData[index].description}</p>
     <ul class="tags">
@@ -127,12 +129,16 @@ cardContainers.forEach((card, index) => {
       <li>${worksData[index].tag3}</li>
       <li>${worksData[index].tag4}</li>
     </ul>
-    <ul>
+    <ul class="modal-links">
       <li><a href="https://bengigo.github.io/portfolio/">See Live</a></li>
       <li><a href="https://github.com/bengigo/portfolio">See Source</a></li>
     </ul>
     `;
+    body.classList.toggle('fixed');
+
 
   })
 })
+
+// don't forget to remove fixed class from body after close icon click
 
