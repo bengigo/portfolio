@@ -74,7 +74,6 @@ nav.active {
 }
 
 nav.active #menu {
-  border: 1px solid white;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -175,7 +174,6 @@ h1 {
 }
 
 .card-container {
-  border: 1px solid red;
   width: 70vw;
   height: 60vh;
   display: flex;
@@ -198,7 +196,6 @@ h1 {
 
 @media screen and (min-width: 1024px) {
   #works {
-    border: 1px solid white;
     display: grid;
     grid: auto / 40vw 40vw;
     justify-content: center;
@@ -216,7 +213,6 @@ h1 {
   .img-container {
     width: 32vw;
     height: 60vh;
-    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,10 +238,9 @@ h3 {
 .tags li {
   margin: 2px;
   padding: 5px;
-  border-radius: 43%;
 }
-/* contact page below */
 
+/* contact page below */
 #contact-page {
   height: 100vh;
   display: flex;
