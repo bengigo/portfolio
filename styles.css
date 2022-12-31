@@ -9,11 +9,7 @@
   color: #233142;
 }
 
-@media screen and (min-width: 1024px) {
-  .mobile {
-    display: none;
-  }
-}
+
 
 body {
   background:
@@ -62,8 +58,6 @@ nav.active {
   justify-content: space-between;
   padding: 30px 70px;
   left: 0;
-
-  /* transition: 0.3s; */
   position: fixed;
   top: 0;
   right: 100%;
@@ -176,13 +170,34 @@ h1 {
   height: 20px;
 }
 
+/* works page below */
+
 #works {
   border: 1px solid white;
 }
 
 .card-container {
   border: 1px solid yellowgreen;
+  width: 32vw;
+  height: 75vh;
 }
+
+.img-container {
+  width: 32vw;
+  height: 60vh;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .work-img {
+    width: 25vw;
+    height: 25vh;
+  }
+}
+/* contact page below */
 
 #contact-page {
   height: 100vh;
@@ -238,4 +253,16 @@ form button {
   border-radius: 8px;
   padding: 10px 15px;
   border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
 }

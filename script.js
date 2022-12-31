@@ -44,20 +44,7 @@ const worksData = [
     badge4: '',
     live: 'https://bengigo.github.io/gastronomy-camp-2022/',
     source: 'https://github.com/bengigo/gastronomy-camp-2022',
-  },
-  {
-    title: 'Why Am I Poor',
-    mobileImg: 'assets/works/mobile/why-am-i-poor.png',
-    desktopImg: 'assets/works/mobile/why-am-i-poor.png',
-    description:
-      '"Why am I poor?" is the question you ask yourself every month, and this application is here to help you get an answer. You can create a private account, your expenses are only visible to you. Start by creating groups of your usual expenses (e.g "Bills", "Kitchen"...) and adding single expenses belong to your chosen group.',
-    badge1: 'Ruby on Rails',
-    badge2: 'PostgreSQL',
-    badge3: 'CSS',
-    badge4: '',
-    live: 'https://why-am-i-poor.onrender.com/',
-    source: 'https://github.com/bengigo/why-am-i-poor',
-  },
+  }, 
   {
     title: 'To-Do List',
     mobileImg: 'assets/works/mobile/todo-list.png',
@@ -91,9 +78,14 @@ worksData.forEach((work) => {
   portfolioContainer.appendChild(cardContainer);
   cardContainer.classList.add("card-container")
   cardContainer.innerHTML = `
+  <div class="mobile img-container">
+    <img class="work-img" src="${work.mobileImg}" alt="">
+  </div>
+  <div class="desktop img-container">
+    <img class="work-img" src="${work.desktopImg}" alt="">
+  </div>
   <h3>${work.title}</h3>
-  <img class="mobile" src="${work.mobileImg}" alt="">
-  <img src="${work.desktopImg}" alt="">
+
   <ul>
     <li>${work.badge1}</li>
     <li>${work.badge2}</li>
