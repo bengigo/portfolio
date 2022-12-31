@@ -111,3 +111,18 @@ const imgContainers = document.querySelectorAll('.img-container');
 imgContainers.forEach((container, index) => {
   container.style.backgroundColor = bgColors[index];
 });
+
+const cardContainers = document.querySelectorAll('.card-container')
+cardContainers.forEach((card) => {
+  card.addEventListener('click', ()=> {
+    // click on cards and open modal
+    // create a container for details modal
+    const modalContainer = document.createElement('div');
+    modalContainer.classList.add('modal');
+    document.body.appendChild(modalContainer)
+    modalContainer.innerHTML = `
+    <p>hello</p>
+    
+    `
+  })
+})

@@ -212,6 +212,7 @@ h1 {
   .card-container {
     width: 32vw;
     margin: auto;
+    cursor: pointer;
   }
 
   .card-container:nth-child(even) {
