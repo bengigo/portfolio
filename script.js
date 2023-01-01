@@ -137,6 +137,7 @@ cardContainers.forEach((card, index) => {
     const closeIcon = document.querySelector('.close');
     closeIcon.addEventListener('click', () => {
       modal.remove();
+      body.classList.toggle('fixed');
     });
   });
 });
