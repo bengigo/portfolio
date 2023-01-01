@@ -352,6 +352,36 @@ form ul {
   margin: 20px;
 }
 
+#skills {
+  height: 100vh;
+  display: flex;
+}
+
+#skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 70vw;
+  height: 50vh;
+}
+
+#skill-list h2 {
+  margin-bottom: 20px;
+}
+
+#skill-list ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skill-list img {
+  width: 50px;
+  margin: 5px;
+}
+
 /* contact page below */
 #contact-page {
   height: 100vh;
