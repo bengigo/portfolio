@@ -76,6 +76,14 @@ nav.active {
   list-style: none;
 }
 
+.modal-links li {
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin: 0 4px;
+  border: none;
+  background-color: white;
+}
+
 nav.active #menu {
   width: 100%;
   display: flex;
@@ -156,6 +164,11 @@ h1 {
   text-align: center;
 }
 
+.modal p {
+  padding: 0 10vw;
+  text-align: center;
+}
+
 #greet p {
   text-align: center;
 }
@@ -212,6 +225,7 @@ h1 {
   .card-container {
     width: 32vw;
     margin: auto;
+    cursor: pointer;
   }
 
   .card-container:nth-child(even) {
@@ -241,6 +255,101 @@ h3 {
   list-style: none;
   display: flex;
   justify-content: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  transition: 0.3s;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 90;
+  background:
+    linear-gradient(
+      to right,
+      rgb(237, 161, 193) 0%,
+      rgb(250, 178, 172) 25.5%,
+      rgb(190, 228, 210) 62.3%,
+      rgb(215, 248, 247) 93.8%
+    );
+}
+
+.modal .work-img {
+  width: 70vw;
+}
+
+.modal h3 {
+  margin: 20px 0;
+}
+
+form ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal ul {
+  list-style: none;
+  display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+  .modal {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 90;
+    background:
+      linear-gradient(
+        to right,
+        rgb(237, 161, 193) 0%,
+        rgb(250, 178, 172) 25.5%,
+        rgb(190, 228, 210) 62.3%,
+        rgb(215, 248, 247) 93.8%
+      );
+  }
+
+  .modal .work-img {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .modal h3 {
+    margin: 20px 0;
+  }
+
+  .modal p {
+    padding: 0 100px;
+    text-align: center;
+  }
+}
+
+.icon-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.close {
+  width: 15px;
+  float: right;
+  margin: 20px;
 }
 
 /* contact page below */
@@ -285,19 +394,11 @@ textarea {
   border-radius: 8px;
 }
 
-form ul {
-  list-style: none;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
 form button {
   border-radius: 8px;
   padding: 10px 15px;
   border: none;
+  background-color: white;
 }
 
 @media screen and (min-width: 1024px) {

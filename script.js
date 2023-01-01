@@ -37,7 +37,7 @@ const worksData = [
     mobileImg: 'assets/works/mobile/gastronomy-events.png',
     desktopImg: 'assets/works/desktop/gastronomy-events.png',
     description:
-      'A website to give information about a gastronomy-related camping event. You can find information about the program and speakers. Built with HTML-CSS-JavaScript',
+      'A website to give information about a gastronomy-related camping event. You can find information about the program and speakers.',
     tag1: 'HTML',
     tag2: 'CSS',
     tag3: 'JavaScript',
@@ -77,14 +77,11 @@ worksData.forEach((work) => {
   const cardContainer = document.createElement('div');
   portfolioContainer.appendChild(cardContainer);
   cardContainer.classList.add('card-container');
-
   cardContainer.innerHTML = `
-
   <div class="img-container">
     <img class="work-img" src="${work.desktopImg}" alt="">
   </div>
   <h3>${work.title}</h3>
-
   <ul class="tags">
     <li>${work.tag1}</li>
     <li>${work.tag2}</li>
@@ -110,4 +107,36 @@ const bgColors = [
 const imgContainers = document.querySelectorAll('.img-container');
 imgContainers.forEach((container, index) => {
   container.style.backgroundColor = bgColors[index];
+});
+
+const cardContainers = document.querySelectorAll('.card-container');
+cardContainers.forEach((card, index) => {
+  card.addEventListener('click', () => {
+    const modal = document.createElement('div');
+    modal.classList.add('modal');
+    body.appendChild(modal);
+    modal.innerHTML = `
+    <div class="icon-container">
+      <img class="close" src="assets/icons/close.svg"</img>
+    </div>
+    <img class="work-img" src="${worksData[index].desktopImg}" alt="">
+    <h3>${worksData[index].title}</h3>
+    <p>${worksData[index].description}</p>
+    <ul class="tags">
+      <li>${worksData[index].tag1}</li>
+      <li>${worksData[index].tag2}</li>
+      <li>${worksData[index].tag3}</li>
+      <li>${worksData[index].tag4}</li>
+    </ul>
+    <ul class="modal-links">
+      <li><a href="https://bengigo.github.io/portfolio/">See Live</a></li>
+      <li><a href="https://github.com/bengigo/portfolio">See Source</a></li>
+    </ul>
+    `;
+    body.classList.toggle('fixed');
+    const closeIcon = document.querySelector('.close');
+    closeIcon.addEventListener('click', () => {
+      modal.remove();
+    });
+  });
 });
