@@ -10,14 +10,13 @@
 }
 
 body {
-  background:
-    linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    );
+  background: linear-gradient(
+    to right,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
   scroll-behavior: smooth;
 }
 
@@ -41,14 +40,13 @@ header {
   height: 100px;
   padding: 30px 70px;
   align-items: center;
-  background:
-    linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    );
+  background: linear-gradient(
+    to right,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
 }
 
 nav.active {
@@ -61,14 +59,13 @@ nav.active {
   right: 100%;
   width: 100%;
   height: 100%;
-  background:
-    linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    );
+  background: linear-gradient(
+    to right,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
 }
 
 #menu {
@@ -269,14 +266,13 @@ h3 {
   width: 100vw;
   height: 100vh;
   z-index: 90;
-  background:
-    linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    );
+  background: linear-gradient(
+    to right,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
 }
 
 .modal .work-img {
@@ -315,14 +311,13 @@ form ul {
     width: 100vw;
     height: 100vh;
     z-index: 90;
-    background:
-      linear-gradient(
-        to right,
-        rgb(237, 161, 193) 0%,
-        rgb(250, 178, 172) 25.5%,
-        rgb(190, 228, 210) 62.3%,
-        rgb(215, 248, 247) 93.8%
-      );
+    background: linear-gradient(
+      to right,
+      rgb(237, 161, 193) 0%,
+      rgb(250, 178, 172) 25.5%,
+      rgb(190, 228, 210) 62.3%,
+      rgb(215, 248, 247) 93.8%
+    );
   }
 
   .modal .work-img {
@@ -350,6 +345,37 @@ form ul {
   width: 15px;
   float: right;
   margin: 20px;
+}
+
+#skills {
+  border: 1px solid white;
+  height: 100vh;
+  display: flex;
+}
+
+#skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 70vw;
+  height: 50vh;
+}
+
+#skill-list h2 {
+  margin-bottom: 20px;
+}
+
+#skill-list ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skill-list img {
+  width: 50px;
+  margin: 5px;
 }
 
 /* contact page below */
