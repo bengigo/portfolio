@@ -1,3 +1,8 @@
+:root {
+  --secondary-font: 'Alegreya Sans SC', sans-serif;
+  --secondary-color: #800080;
+}
+
 *,
 *::before,
 *::after {
@@ -23,6 +28,14 @@ body {
 
 body.fixed {
   overflow: hidden;
+}
+
+.colored-text {
+  color: var(--secondary-color);
+}
+
+#logo a {
+  font-family: var(--secondary-font);
 }
 
 a {
@@ -95,10 +108,16 @@ nav.active #menu {
 .tags li {
   margin: 2px;
   padding: 5px;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 #menu li {
   margin: 0 0 0 20px;
+}
+
+#menu a {
+  font-family: var(--secondary-font);
 }
 
 nav.active #menu li {
@@ -162,6 +181,11 @@ main {
 
 h1 {
   text-align: center;
+  font-family: var(--secondary-font);
+}
+
+h2 {
+  font-family: var(--secondary-font);
 }
 
 .modal p {
@@ -184,8 +208,6 @@ h1 {
   width: 20px;
   height: 20px;
 }
-
-/* works page below */
 
 #works {
   display: flex;
@@ -249,6 +271,7 @@ h1 {
 h3 {
   margin-top: 20px;
   text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .tags {
