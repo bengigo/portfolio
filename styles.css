@@ -375,6 +375,7 @@ form ul {
   list-style: none;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
 }
 
 #skill-list img {
