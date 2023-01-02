@@ -231,10 +231,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
 }
 
 .work-img {
   width: 55vw;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 1024px) {
