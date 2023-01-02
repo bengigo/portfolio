@@ -1,3 +1,8 @@
+:root {
+  --secondary-font: "Alegreya Sans SC", sans-serif;
+  --secondary-color: #800080;
+}
+
 *,
 *::before,
 *::after {
@@ -25,8 +30,16 @@ body.fixed {
   overflow: hidden;
 }
 
+.colored-text {
+  color: var(--secondary-color);
+}
+
 a {
   text-decoration: none;
+}
+
+#logo a {
+  font-family: var(--secondary-font);
 }
 
 #home {
@@ -95,10 +108,16 @@ nav.active #menu {
 .tags li {
   margin: 2px;
   padding: 5px;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 #menu li {
   margin: 0 0 0 20px;
+}
+
+#menu a {
+  font-family: var(--secondary-font);
 }
 
 nav.active #menu li {
@@ -162,6 +181,11 @@ main {
 
 h1 {
   text-align: center;
+  font-family: var(--secondary-font);
+}
+
+h2 {
+  font-family: var(--secondary-font);
 }
 
 .modal p {
@@ -185,8 +209,6 @@ h1 {
   height: 20px;
 }
 
-/* works page below */
-
 #works {
   display: flex;
   flex-direction: column;
@@ -209,10 +231,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
 }
 
 .work-img {
   width: 55vw;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -249,6 +273,7 @@ h1 {
 h3 {
   margin-top: 20px;
   text-align: center;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .tags {
