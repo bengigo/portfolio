@@ -1,5 +1,5 @@
 :root {
-  --secondary-font: 'Alegreya Sans SC', sans-serif;
+  --secondary-font: "Alegreya Sans SC", sans-serif;
   --secondary-color: #800080;
 }
 
@@ -34,12 +34,12 @@ body.fixed {
   color: var(--secondary-color);
 }
 
-#logo a {
-  font-family: var(--secondary-font);
-}
-
 a {
   text-decoration: none;
+}
+
+#logo a {
+  font-family: var(--secondary-font);
 }
 
 #home {
@@ -273,7 +273,7 @@ h2 {
 h3 {
   margin-top: 20px;
   text-align: center;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .tags {
