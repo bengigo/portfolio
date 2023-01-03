@@ -328,7 +328,6 @@ form ul {
 
 @media screen and (min-width: 1024px) {
   .modal {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
