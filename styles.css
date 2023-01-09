@@ -40,6 +40,7 @@ a {
 
 #logo a {
   font-family: var(--secondary-font);
+  font-size: 22px;
 }
 
 #home {
@@ -118,6 +119,7 @@ nav.active #menu {
 
 #menu a {
   font-family: var(--secondary-font);
+  font-size: 22px;
 }
 
 nav.active #menu li {
@@ -408,7 +410,6 @@ form ul {
   margin: 5px;
 }
 
-/* contact page below */
 #contact-page {
   height: 100vh;
   display: flex;
@@ -468,3 +469,32 @@ form button {
     display: none;
   }
 }
+
+.wiggle:hover {
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
