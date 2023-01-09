@@ -1,6 +1,7 @@
 :root {
   --secondary-font: "Alegreya Sans SC", sans-serif;
-  --secondary-color: #800080;
+  /* --secondary-color: #800080; */
+  --secondary-color: #0e835d;
 }
 
 *,
@@ -254,6 +255,7 @@ h2 {
     display: grid;
     grid: auto / 40vw 40vw;
     justify-content: center;
+    padding-top: 100px;
   }
 
   .card-container {
