@@ -129,7 +129,7 @@ cardContainers.forEach((card, index) => {
       <li>${worksData[index].tag4}</li>
     </ul>
     <ul class="modal-links">
-      <li class="wiggle"><a href="https://bengigo.github.io/portfolio/">See Live</a></li>
+      <li class="wiggle"><a target="_blank" href=${worksData[index].live}>See Live</a></li>
       <li class="wiggle"><a href="https://github.com/bengigo/portfolio">See Source</a></li>
     </ul>
     `;
