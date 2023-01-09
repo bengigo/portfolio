@@ -236,6 +236,7 @@ h2 {
 
 .work-img {
   width: 55vw;
+  height: 32vh;
   border-radius: 10px;
 }
 
@@ -266,7 +267,7 @@ h2 {
 
   .work-img {
     width: 25vw;
-    height: 25vh;
+    height: 32vh;
   }
 }
 
@@ -305,7 +306,7 @@ h3 {
 }
 
 .modal .work-img {
-  width: 70vw;
+  width: 80vw;
 }
 
 .modal h3 {
