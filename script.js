@@ -10,12 +10,15 @@ burger.addEventListener('click', () => {
   menuContainer.classList.toggle('active');
   menu.classList.toggle('active');
   body.classList.toggle('fixed');
+  
 });
 
 navLinks.forEach((link) => link.addEventListener('click', () => {
   burger.classList.remove('active');
   menuContainer.classList.remove('active');
   body.classList.remove('fixed');
+  menu.classList.toggle('active');
+
 }));
 
 const worksData = [
