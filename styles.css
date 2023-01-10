@@ -53,7 +53,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 100px;
-  padding: 30px 70px;
+  padding: 15px 30px;
   align-items: center;
   background:
     linear-gradient(
@@ -63,6 +63,12 @@ header {
       rgb(190, 228, 210) 62.3%,
       rgb(215, 248, 247) 93.8%
     );
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 30px 70px;
+  }
 }
 
 nav.active {
@@ -398,8 +404,8 @@ form ul {
 }
 
 #skills {
-  /* height: 100vh; */
-  height: 60vh;
+  height: 100vh;
+  /* height: 60vh; */
   padding-top: 100px;
   display: flex;
 }
@@ -410,11 +416,13 @@ form ul {
   align-items: center;
   margin: auto;
   width: 70vw;
-  height: 50vh;
+  /* height: 50vh; */
+  height: 100%;
 }
 
 #skill-list h2 {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  text-align: center;
 }
 
 #skill-list ul {
