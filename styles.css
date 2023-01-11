@@ -431,38 +431,55 @@ form li {
 
 #skills {
   height: 100vh;
-  /* height: 60vh; */
-  padding-top: 100px;
+  padding-top: 150px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#skill-list {
+/* #skill-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
   width: 70vw;
 
-  /* height: 50vh; */
   height: 100%;
-}
+} */
 
-#skill-list h2 {
-  /* margin-bottom: 20px; */
+/* #skill-list h2 {
   text-align: center;
-}
+} */
 
-#skill-list ul {
+#skills ul {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
+  /* margin: auto; */
+  width: 70vw;
+  /* border: 1px solid black; */
+  align-items: center;
+  width: 70vw;
+justify-content: center;
 }
 
-#skill-list img {
+#skills li {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* #skills img {
   width: 50px;
   margin: 5px;
+} */
+
+#skills img {
+  width: 40px;
+  height: 40px;
 }
 
 /* #contact-page {
