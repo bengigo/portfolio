@@ -65,6 +65,7 @@ header {
       rgb(215, 248, 247) 93.8%
     ); */
     background-color: white;
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -222,6 +223,7 @@ h1 {
 
 h2 {
   font-family: var(--secondary-font);
+  margin-bottom: 10px;
 }
 
 .modal p {
@@ -366,6 +368,12 @@ form ul {
   align-items: center;
 }
 
+form li {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+}
+
 .modal ul {
   list-style: none;
   display: flex;
@@ -423,7 +431,6 @@ form ul {
 
 #skills {
   height: 100vh;
-
   /* height: 60vh; */
   padding-top: 100px;
   display: flex;
@@ -458,13 +465,23 @@ form ul {
   margin: 5px;
 }
 
-#contact-page {
+/* #contact-page {
   height: 100vh;
   display: flex;
   align-items: center;
-}
+  border: 1px solid red;
+
+} */
 
 #contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  align-items: center;
+}
+
+/* #contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -472,31 +489,39 @@ form ul {
   margin: auto;
   width: 70vw;
   height: 50vh;
-}
+} */
 
 #contact p {
   text-align: center;
+  width: 70vw;
+  margin-bottom: 10px;
 }
 
 form {
-  height: 30vh;
+  /* height: 30vh; */
   width: 70vw;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
 
 input {
-  width: 40vw;
+  width: 100%;
   height: 34px;
-  padding: 5px;
+  padding: 15px;
   border: none;
   border-radius: 8px;
+  margin-bottom: 5px;
 }
 
 textarea {
   height: 70px;
-  width: 40vw;
-  padding: 5px;
+  width: 100%;
+  padding: 15px;
   border: none;
   border-radius: 8px;
+  margin-bottom: 10px;
+
 }
 
 form button {
