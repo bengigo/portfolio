@@ -152,6 +152,13 @@ nav.active #menu {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  #skills li {
+    margin: 15px;
+  }
 }
 
 nav.active #menu li {
@@ -227,6 +234,12 @@ h1 {
 h2 {
   font-family: var(--secondary-font);
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    margin: 180px 0 100px 0;
+  }
 }
 
 main p {
@@ -461,14 +474,19 @@ form ul {
 
 
 
-/* #skills img {
-  width: 50px;
-  margin: 5px;
-} */
+
 
 #skills img {
   width: 40px;
   height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  #skills img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
 }
 
 /* #contact-page {
