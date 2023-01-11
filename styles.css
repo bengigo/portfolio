@@ -52,7 +52,6 @@ header {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  /* height: 100px; */
   height: 80px;
   padding: 15px 30px;
   align-items: center;
@@ -91,11 +90,6 @@ nav.active {
       rgb(215, 248, 247) 93.8%
     );
 }
-
-/* #menu {
-  display: flex;
-  list-style: none;
-} */
 
 #menu {
   display: none;
@@ -211,17 +205,6 @@ main {
   justify-content: center;
 }
 
-/* #greet {
-  height: 35vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin: auto;
-  width: 70vw;
-  background-color: white;
-} */
-
 h1 {
   text-align: center;
   font-family: var(--secondary-font);
@@ -249,10 +232,6 @@ main p {
   padding: 0 10vw;
   text-align: center;
 }
-
-/* #greet p {
-  text-align: center;
-} */
 
 .social-links {
   list-style: none;
@@ -458,34 +437,14 @@ form ul {
   }
 }
 
-/* #skill-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  width: 70vw;
-
-  height: 100%;
-} */
-
-/* #skill-list h2 {
-  text-align: center;
-} */
-
 #skills ul {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-
-  /* margin: auto; */
   width: 70vw;
   align-items: center;
   justify-content: center;
 }
-
-
-
-
 
 #skills img {
   width: 40px;
@@ -500,14 +459,6 @@ form ul {
   }
 }
 
-/* #contact-page {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  border: 1px solid red;
-
-} */
-
 #contact {
   height: 100vh;
   display: flex;
@@ -518,28 +469,15 @@ form ul {
 
 @media screen and (min-width: 1024px) {
   #contact {
-    /* padding-top: 150px; */
     padding-top: 0;
   }
 }
 
-/* @media screen and (min-width: 1024px) {
-  #contact {
-    border: 1px solid;
-  }
-} */
 
 
 
-/* #contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin: auto;
-  width: 70vw;
-  height: 50vh;
-} */
+
+
 
 #contact p {
   text-align: center;
@@ -554,12 +492,10 @@ form ul {
 }
 
 form {
-  /* height: 30vh; */
   width: 70vw;
   display: flex;
   flex-direction: column;
 
-  /* align-items: center; */
 }
 
 input {
