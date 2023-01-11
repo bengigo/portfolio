@@ -1,6 +1,9 @@
 :root {
   --secondary-font: "Alegreya Sans SC", sans-serif;
-  --secondary-color: #0e835d;
+  /* --secondary-color: #0e835d; */
+  --secondary-color: crimson;
+
+
 }
 
 *,
@@ -15,14 +18,15 @@
 }
 
 body {
-  background:
+  /* background:
     linear-gradient(
       to right,
       rgb(237, 161, 193) 0%,
       rgb(250, 178, 172) 25.5%,
       rgb(190, 228, 210) 62.3%,
       rgb(215, 248, 247) 93.8%
-    );
+    ); */
+    background: linear-gradient(106.8deg, rgb(117, 255, 220) 6%, rgb(163, 216, 255) 47.6%, rgb(248, 215, 251) 87.8%);
   scroll-behavior: smooth;
 }
 
@@ -55,14 +59,15 @@ header {
   height: 80px;
   padding: 15px 30px;
   align-items: center;
-  background:
+  /* background:
     linear-gradient(
       to right,
       rgb(237, 161, 193) 0%,
       rgb(250, 178, 172) 25.5%,
       rgb(190, 228, 210) 62.3%,
       rgb(215, 248, 247) 93.8%
-    );
+    ); */
+  backdrop-filter: blur(100px);
 }
 
 @media screen and (min-width: 1024px) {
