@@ -1,6 +1,6 @@
 :root {
   --secondary-font: "Alegreya Sans SC", sans-serif;
-  --secondary-color: white;
+  --secondary-color: #0e835d;
 }
 
 *,
@@ -11,20 +11,17 @@
   margin: 0;
   padding: 0;
   font-family: "Nunito", sans-serif;
-  font-size: 20px;
   color: #233142;
 }
 
 body {
   background:
     linear-gradient(
-      122.3deg,
-      rgb(111, 71, 133) 14.6%,
-      rgb(232, 129, 166) 29.6%,
-      rgb(237, 237, 183) 42.1%,
-      rgb(244, 166, 215) 56.7%,
-      rgb(154, 219, 232) 68.7%,
-      rgb(238, 226, 159) 84.8%
+      to right,
+      rgb(237, 161, 193) 0%,
+      rgb(250, 178, 172) 25.5%,
+      rgb(190, 228, 210) 62.3%,
+      rgb(215, 248, 247) 93.8%
     );
   scroll-behavior: smooth;
 }
@@ -58,7 +55,14 @@ header {
   height: 80px;
   padding: 15px 30px;
   align-items: center;
-  backdrop-filter: blur(100px);
+  background:
+    linear-gradient(
+      to right,
+      rgb(237, 161, 193) 0%,
+      rgb(250, 178, 172) 25.5%,
+      rgb(190, 228, 210) 62.3%,
+      rgb(215, 248, 247) 93.8%
+    );
 }
 
 @media screen and (min-width: 1024px) {
@@ -199,7 +203,6 @@ main {
 
 h1 {
   text-align: center;
-  font-size: 30px;
   font-family: var(--secondary-font);
   margin-bottom: 10px;
 }
@@ -207,7 +210,6 @@ h1 {
 h2 {
   font-family: var(--secondary-font);
   margin-bottom: 10px;
-  font-size: 25px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -333,7 +335,16 @@ h3 {
   width: 100vw;
   height: 100vh;
   z-index: 90;
+  /* background:
+    linear-gradient(
+      to right,
+      rgb(237, 161, 193) 0%,
+      rgb(250, 178, 172) 25.5%,
+      rgb(190, 228, 210) 62.3%,
+      rgb(215, 248, 247) 93.8%
+    ); */
   backdrop-filter: blur(100px);
+    
 }
 
 .modal .work-img {
