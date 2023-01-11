@@ -427,9 +427,7 @@ form ul {
 
 @media screen and (min-width: 1024px) {
   #skills {
-    /* padding-top: 150px; */
     padding-top: 0;
-    border: 1px solid black;
   }
 }
 
