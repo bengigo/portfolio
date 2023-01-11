@@ -52,17 +52,19 @@ header {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  /* height: 100px; */
+  height: 80px;
   padding: 15px 30px;
   align-items: center;
-  background:
+  /* background:
     linear-gradient(
       to right,
       rgb(237, 161, 193) 0%,
       rgb(250, 178, 172) 25.5%,
       rgb(190, 228, 210) 62.3%,
       rgb(215, 248, 247) 93.8%
-    );
+    ); */
+    background-color: white;
 }
 
 @media screen and (min-width: 1024px) {
@@ -170,7 +172,7 @@ nav.active #menu li {
 
 #burger span {
   background-color: black;
-  width: 100%;
+  width: 20px;
   height: 2px;
   display: block;
   margin: 6px 0;
@@ -195,7 +197,7 @@ main {
 }
 
 #greet {
-  height: 35vh;
+  /* height: 35vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -405,6 +407,7 @@ form ul {
 
 #skills {
   height: 100vh;
+
   /* height: 60vh; */
   padding-top: 100px;
   display: flex;
@@ -416,6 +419,7 @@ form ul {
   align-items: center;
   margin: auto;
   width: 70vw;
+
   /* height: 50vh; */
   height: 100%;
 }
