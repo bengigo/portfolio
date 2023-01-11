@@ -196,19 +196,28 @@ main {
   align-items: center;
 }
 
-#greet {
-  /* height: 35vh; */
+/* #greet {
+  height: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   margin: auto;
   width: 70vw;
+  background-color: white;
+} */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   text-align: center;
   font-family: var(--secondary-font);
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -220,8 +229,14 @@ h2 {
   text-align: center;
 }
 
-#greet p {
+/* #greet p {
   text-align: center;
+} */
+
+main p {
+  width: 70vw;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .social-links {
