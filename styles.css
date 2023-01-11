@@ -335,14 +335,16 @@ h3 {
   width: 100vw;
   height: 100vh;
   z-index: 90;
-  background:
+  /* background:
     linear-gradient(
       to right,
       rgb(237, 161, 193) 0%,
       rgb(250, 178, 172) 25.5%,
       rgb(190, 228, 210) 62.3%,
       rgb(215, 248, 247) 93.8%
-    );
+    ); */
+  backdrop-filter: blur(100px);
+    
 }
 
 .modal .work-img {
