@@ -505,6 +505,14 @@ form ul {
   align-items: center;
 }
 
+/* @media screen and (min-width: 1024px) {
+  #contact {
+    border: 1px solid;
+  }
+} */
+
+
+
 /* #contact {
   display: flex;
   flex-direction: column;
@@ -519,6 +527,12 @@ form ul {
   text-align: center;
   width: 70vw;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  #contact p {
+    margin-bottom: 35px;
+  }
 }
 
 form {
@@ -539,6 +553,13 @@ input {
   margin-bottom: 5px;
 }
 
+@media screen and (min-width: 1024px) {
+  input {
+    margin-bottom: 20px;
+  }
+}
+
+
 textarea {
   height: 70px;
   width: 100%;
@@ -546,6 +567,13 @@ textarea {
   border: none;
   border-radius: 8px;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  textarea {
+    margin-bottom: 25px;
+
+  }
 }
 
 form button {
