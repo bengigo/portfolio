@@ -52,21 +52,18 @@ header {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-
   /* height: 100px; */
   height: 80px;
   padding: 15px 30px;
   align-items: center;
-
-  /* background:
+  background:
     linear-gradient(
       to right,
       rgb(237, 161, 193) 0%,
       rgb(250, 178, 172) 25.5%,
       rgb(190, 228, 210) 62.3%,
       rgb(215, 248, 247) 93.8%
-    ); */
-  background-color: white;
+    );
 }
 
 @media screen and (min-width: 1024px) {
@@ -550,7 +547,7 @@ input {
   padding: 15px;
   border: none;
   border-radius: 8px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -566,7 +563,7 @@ textarea {
   padding: 15px;
   border: none;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1024px) {
