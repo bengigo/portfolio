@@ -261,7 +261,7 @@ main p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 150px;
+  padding: 150px 0 100px 0;
 }
 
 .card-container {
