@@ -117,10 +117,6 @@ nav.active #menu {
   padding: 30px;
 }
 
-.nav-link {
-  display: ;
-}
-
 .tags li {
   margin: 2px;
   padding: 5px;
@@ -473,12 +469,6 @@ form ul {
   }
 }
 
-
-
-
-
-
-
 #contact p {
   text-align: center;
   width: 70vw;
@@ -495,7 +485,6 @@ form {
   width: 70vw;
   display: flex;
   flex-direction: column;
-
 }
 
 input {
@@ -513,7 +502,6 @@ input {
   }
 }
 
-
 textarea {
   height: 70px;
   width: 100%;
@@ -526,7 +514,6 @@ textarea {
 @media screen and (min-width: 1024px) {
   textarea {
     margin-bottom: 25px;
-
   }
 }
 
