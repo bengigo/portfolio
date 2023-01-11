@@ -271,7 +271,13 @@ main p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 150px 0 100px 0;
+  padding-top: 105px;
+}
+
+@media screen and (min-width: 1024px) {
+  #works {
+    padding: 150px 0 100px 0;
+  }
 }
 
 .card-container {
@@ -438,10 +444,18 @@ form ul {
 
 #skills {
   height: 100vh;
-  padding-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 150px;
+}
+
+@media screen and (min-width: 1024px) {
+  #skills {
+    /* padding-top: 150px; */
+    padding-top: 0;
+    border: 1px solid black;
+  }
 }
 
 /* #skill-list {
@@ -500,6 +514,13 @@ form ul {
   flex-direction: column;
   padding-top: 150px;
   align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  #contact {
+    /* padding-top: 150px; */
+    padding-top: 0;
+  }
 }
 
 /* @media screen and (min-width: 1024px) {
