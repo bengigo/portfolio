@@ -130,8 +130,8 @@ cardContainers.forEach((card, index) => {
       <li>${worksData[index].tag4}</li>
     </ul>
     <ul class="modal-links">
-      <li class="wiggle"><a target="_blank" href=${worksData[index].live}>See Live<img class="modal-icon" alt="#" src="assets/icons/live.svg"></a></li>
-      <li class="wiggle"><a target="_blank" href=${worksData[index].source}>See Source<img class="modal-icon" alt="#" src="assets/icons/social/github.svg"></a></li>
+      <li class="wiggle"><a target="_blank" rel="noopener noreferrer" href=${worksData[index].live}>See Live<img class="modal-icon" alt="#" src="assets/icons/live.svg"></a></li>
+      <li class="wiggle"><a target="_blank" rel="noopener noreferrer" href=${worksData[index].source}>See Source<img class="modal-icon" alt="#" src="assets/icons/social/github.svg"></a></li>
     </ul>
     `;
     body.classList.toggle('fixed');
