@@ -302,11 +302,11 @@ h2 {
   padding-top: 105px;
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   #works {
-    padding: 150px 0 100px 0;
+    padding: 90px 0 100px 0;
   }
-}
+} */
 
 .card-container {
   width: 70vw;
@@ -337,7 +337,7 @@ h2 {
     display: grid;
     grid: auto / 40vw 40vw;
     justify-content: center;
-    padding-top: 100px;
+    padding: 80px 0;
   }
 
   .card-container {
@@ -478,6 +478,8 @@ form ul {
   flex-direction: column;
   align-items: center;
   padding-top: 150px;
+  background-color: #f8f8f8;
+
 }
 
 @media screen and (min-width: 1024px) {
