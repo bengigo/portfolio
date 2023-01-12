@@ -1,6 +1,6 @@
 :root {
   --secondary-font: "Comfortaa", cursive;
-  --secondary-color: tomato;
+  --secondary-color: #e62600;
 }
 
 *,
@@ -526,7 +526,7 @@ form button {
   padding: 10px 15px;
   background-color: white;
   border: 2px solid #233142;
-  color: tomato;
+  color: var(--secondary-color);
 }
 
 #contact img {
