@@ -1,6 +1,6 @@
 :root {
-  --secondary-font: "Alegreya Sans SC", sans-serif;
-  --secondary-color: #0e835d;
+  --secondary-font: 'Montserrat', sans-serif;
+  --secondary-color: tomato;
 }
 
 *,
@@ -12,17 +12,26 @@
   padding: 0;
   font-family: "Nunito", sans-serif;
   color: #233142;
+  font-size: 20px;
 }
 
 body {
-  background:
-    linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    );
+  /* background: linear-gradient(
+    to right,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  ); */
+  /* background: linear-gradient(
+    122.3deg,
+    rgb(111, 71, 133) 14.6%,
+    rgb(232, 129, 166) 29.6%,
+    rgb(237, 237, 183) 42.1%,
+    rgb(244, 166, 215) 56.7%,
+    rgb(154, 219, 232) 68.7%,
+    rgb(238, 226, 159) 84.8%
+  ); */
   scroll-behavior: smooth;
 }
 
@@ -55,14 +64,14 @@ header {
   height: 80px;
   padding: 15px 30px;
   align-items: center;
-  background:
-    linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    );
+  /* background: linear-gradient(
+    to right,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  ); */
+  backdrop-filter: blur(100px);
 }
 
 @media screen and (min-width: 1024px) {
@@ -81,14 +90,24 @@ nav.active {
   right: 100%;
   width: 100%;
   height: 100%;
-  background:
+  /* background:
     linear-gradient(
       to right,
       rgb(237, 161, 193) 0%,
       rgb(250, 178, 172) 25.5%,
       rgb(190, 228, 210) 62.3%,
       rgb(215, 248, 247) 93.8%
-    );
+    ); */
+  /* background: linear-gradient(
+    122.3deg,
+    rgb(111, 71, 133) 14.6%,
+    rgb(232, 129, 166) 29.6%,
+    rgb(237, 237, 183) 42.1%,
+    rgb(244, 166, 215) 56.7%,
+    rgb(154, 219, 232) 68.7%,
+    rgb(238, 226, 159) 84.8%
+  ); */
+  background-color: antiquewhite;
 }
 
 #menu {
@@ -193,23 +212,51 @@ nav.active #menu li {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-main {
+/* main {
   height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #f8f8f8;
+} */
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+
+}
+
+#main-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+
+}
+
+main img {
+  margin: 15px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }
 
 h1 {
   text-align: center;
   font-family: var(--secondary-font);
   margin-bottom: 10px;
+  font-size: 30px;
 }
 
 h2 {
   font-family: var(--secondary-font);
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -218,8 +265,14 @@ h2 {
   }
 }
 
-main p {
+/* main p {
   width: 70vw;
+  text-align: center;
+  margin-bottom: 10px;
+} */
+
+#main-text p {
+  width: 40vw;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -233,7 +286,7 @@ main p {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 100px;
+  width: 200px;
 }
 
 .social-links img {
@@ -344,7 +397,6 @@ h3 {
       rgb(215, 248, 247) 93.8%
     ); */
   backdrop-filter: blur(100px);
-    
 }
 
 .modal .work-img {
@@ -382,14 +434,15 @@ form ul {
     width: 100vw;
     height: 100vh;
     z-index: 90;
-    background:
-      linear-gradient(
-        to right,
-        rgb(237, 161, 193) 0%,
-        rgb(250, 178, 172) 25.5%,
-        rgb(190, 228, 210) 62.3%,
-        rgb(215, 248, 247) 93.8%
-      );
+    /* background: linear-gradient(
+      to right,
+      rgb(237, 161, 193) 0%,
+      rgb(250, 178, 172) 25.5%,
+      rgb(190, 228, 210) 62.3%,
+      rgb(215, 248, 247) 93.8%
+    ); */
+    backdrop-filter: blur(100px);
+
   }
 
   .modal .work-img {
@@ -522,6 +575,7 @@ form button {
   padding: 10px 15px;
   border: none;
   background-color: white;
+  color: black;
 }
 
 @media screen and (min-width: 1024px) {
