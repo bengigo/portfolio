@@ -229,7 +229,6 @@ main {
   flex-direction: column;
   justify-content: center;
   margin: 15px;
-
 }
 
 main img {
@@ -265,9 +264,15 @@ h2 {
 } */
 
 #main-text p {
-  width: 40vw;
+  width: 70vw;
   text-align: center;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  #main-text p {
+    width: 40vw;
+  }
 }
 
 .modal p {
@@ -472,12 +477,12 @@ form ul {
   align-items: center;
   padding-top: 150px;
   background-color: #f8f8f8;
-
 }
 
 @media screen and (min-width: 1024px) {
   #skills {
-    padding-top: 0;
+    /* what da hell */
+    /* padding-top: 0; */
   }
 }
 
