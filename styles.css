@@ -1,8 +1,5 @@
 :root {
-  /* --secondary-font: "Montserrat", sans-serif; */
-  /* --secondary-font:'Alegreya Sans SC', sans-serif; */
-  --secondary-font: 'Comfortaa', cursive;
-
+  --secondary-font: "Comfortaa", cursive;
   --secondary-color: tomato;
 }
 
@@ -18,25 +15,8 @@
   font-size: 20px;
 }
 
-body {
-  /* background: linear-gradient(
-    to right,
-    rgb(237, 161, 193) 0%,
-    rgb(250, 178, 172) 25.5%,
-    rgb(190, 228, 210) 62.3%,
-    rgb(215, 248, 247) 93.8%
-  ); */
-  /* background: linear-gradient(
-    122.3deg,
-    rgb(111, 71, 133) 14.6%,
-    rgb(232, 129, 166) 29.6%,
-    rgb(237, 237, 183) 42.1%,
-    rgb(244, 166, 215) 56.7%,
-    rgb(154, 219, 232) 68.7%,
-    rgb(238, 226, 159) 84.8%
-  ); */
+html {
   scroll-behavior: smooth;
-/* webkit smooth */
 }
 
 body.fixed {
@@ -87,23 +67,6 @@ nav.active {
   right: 100%;
   width: 100%;
   height: 100%;
-  /* background:
-    linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    ); */
-  /* background: linear-gradient(
-    122.3deg,
-    rgb(111, 71, 133) 14.6%,
-    rgb(232, 129, 166) 29.6%,
-    rgb(237, 237, 183) 42.1%,
-    rgb(244, 166, 215) 56.7%,
-    rgb(154, 219, 232) 68.7%,
-    rgb(238, 226, 159) 84.8%
-  ); */
   background-color: antiquewhite;
 }
 
@@ -217,15 +180,6 @@ nav.active #menu li {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* main {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f8f8f8;
-} */
-
 main {
   height: 100vh;
   display: flex;
@@ -262,17 +216,10 @@ h2 {
   text-align: center;
 }
 
-/* @media screen and (min-width: 1024px) {
-  h2 {
-    margin: 180px 0 100px 0;
-  }
-} */
-
-/* main p {
-  width: 70vw;
+.modal p {
+  padding: 0 10vw;
   text-align: center;
-  margin-bottom: 10px;
-} */
+}
 
 #main-text p {
   width: 70vw;
@@ -284,11 +231,6 @@ h2 {
   #main-text p {
     width: 40vw;
   }
-}
-
-.modal p {
-  padding: 0 10vw;
-  text-align: center;
 }
 
 .social-links {
@@ -310,12 +252,6 @@ h2 {
   justify-content: center;
   padding-top: 105px;
 }
-
-/* @media screen and (min-width: 1024px) {
-  #works {
-    padding: 90px 0 100px 0;
-  }
-} */
 
 .card-container {
   width: 70vw;
@@ -397,14 +333,6 @@ h3 {
   width: 100vw;
   height: 100vh;
   z-index: 90;
-  /* background:
-    linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    ); */
   backdrop-filter: blur(100px);
 }
 
@@ -443,13 +371,6 @@ form ul {
     width: 100vw;
     height: 100vh;
     z-index: 90;
-    /* background: linear-gradient(
-      to right,
-      rgb(237, 161, 193) 0%,
-      rgb(250, 178, 172) 25.5%,
-      rgb(190, 228, 210) 62.3%,
-      rgb(215, 248, 247) 93.8%
-    ); */
     backdrop-filter: blur(100px);
   }
 
@@ -481,7 +402,6 @@ form ul {
 }
 
 #skills {
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -513,6 +433,10 @@ form ul {
   }
 }
 
+.name {
+  font-size: 13px;
+}
+
 #contact {
   height: 100vh;
   display: flex;
@@ -522,7 +446,6 @@ form ul {
 }
 
 #contact-text {
-  /* border: 1px solid; */
   flex-direction: column;
   align-items: center;
 }
@@ -530,7 +453,6 @@ form ul {
 @media screen and (min-width: 1024px) {
   #contact-text {
     width: 60vw;
-    /* border: 1px solid; */
   }
 }
 
@@ -561,21 +483,18 @@ form {
 
 @media screen and (min-width: 1024px) {
   form {
-    width: 60vw;  
+    width: 60vw;
   }
 }
-
-
 
 input {
   width: 100%;
   height: 34px;
-  /* padding: 15px; */
   padding: 5px 15px;
   border: none;
   border-radius: 8px;
   margin-bottom: 15px;
-  border: 2px solid #233142;
+  border: 2px solid #233142; /* stylelint-disable-line */
 }
 
 @media screen and (min-width: 1024px) {
@@ -588,12 +507,11 @@ input {
 textarea {
   height: 70px;
   width: 100%;
-  /* padding: 15px; */
   padding: 5px 15px;
   border: none;
   border-radius: 8px;
   margin-bottom: 20px;
-  border: 2px solid #233142;
+  border: 2px solid #233142; /* stylelint-disable-line */
 }
 
 @media screen and (min-width: 1024px) {
@@ -610,10 +528,6 @@ form button {
   border: 2px solid #233142;
   color: tomato;
 }
-
-/* #contact-img {
-  border: 1px solid red;
-} */
 
 #contact img {
   margin: 15px;
@@ -671,8 +585,4 @@ form button {
   100% {
     transform: rotateZ(0);
   }
-}
-
-.name {
-  font-size: 13px;
 }
