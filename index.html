@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/35e6b59225.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Bengi Genç</title>
 </head>
 
@@ -18,9 +20,9 @@
         <div id="logo"><a class="colored-text" href="#">Bengi Genç</a></div>
         <nav>
             <ul id="menu">
-                <li class="nav-link"><a href="#works">Portfolio</a></li>
-                <li class="nav-link"><a href="#skills">Skills</a></li>
-                <li class="nav-link"><a href="#contact">Contact</a></li>
+                <li class="nav-link"><a class="colored-text" href="#works">Portfolio</a></li>
+                <li class="nav-link"><a class="colored-text" href="#skills">Skills</a></li>
+                <li class="nav-link"><a class="colored-text" href="#contact">Contact</a></li>
             </ul>
 
             <button id="burger" class="mobile">
@@ -31,86 +33,106 @@
         </nav>
     </header>
     <main>
-        <div id="greet">
+        <div id="main-text">
             <h1>Hello, I'm Bengi <br>Glad to see you!</h1>
-            <p>I’m a software developer! I can help you build a product, feature or website. Look through some of my
-                work. If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <p>I’m a software developer! I can help you build a product, a feature or a website. Take a look at some of
+                my
+                work. If you like what you see and have a project in mind, don’t hesitate to contact me.</p>
             <p class="colored-text">LET'S CONNECT</p>
             <ul class="social-links">
-                <li><a href="https://twitter.com/bengi_gb"><img src="assets/icons/social/twitter.svg" alt="twitter"></a></li>
-                <li><a href="https://www.linkedin.com/in/bengigenc/"><img src="assets/icons/social/linkedin-in.svg" alt="twitter"></a></li>
-                <li><a href="https://github.com/bengigo"><img src="assets/icons/social/github.svg" alt="twitter"></a></li>
-                <li><a href="https://angel.co/u/bengi-genc"><img src="assets/icons/social/angellist.svg" alt="twitter"></a></li>
+                <li><a href="https://twitter.com/bengi_gb"><img src="assets/icons/social/twitter.svg" alt="twitter"></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/bengigenc/"><img src="assets/icons/social/linkedin-in.svg"
+                            alt="twitter"></a></li>
+                <li><a href="https://github.com/bengigo"><img src="assets/icons/social/github.svg" alt="twitter"></a>
+                </li>
+                <li><a href="https://angel.co/u/bengi-genc"><img src="assets/icons/social/angellist.svg"
+                            alt="twitter"></a></li>
             </ul>
+        </div>
+        <div id="main-img" class="desktop">
+            <img alt="#" src="assets/programming.png">
         </div>
     </main>
     <section id="works"></section>
     <section id="skills">
-        <div id="skill-list">
-            <h2>Skills</h2>
-            <ul>
-                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                        alt="javaScript" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css" />
-                </li>
-                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="redux" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="webpack" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="ruby" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" alt="rails" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgresql" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="gitHub" />
-                </li>
-                <li>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" />
-                </li>
-            </ul>
-        </div>
+        <h2>Languages and tools</h2>
+        <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="javaScript" />
+                <!-- <hr> -->
+                <p class="name">JavaScript</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" />
+                <p class="name">HTML5</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css" />
+                <p class="name">CSS3</p>
+            </li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    alt="bootstrap" />
+                <p class="name">Bootsrap</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" />
+                <p class="name">React</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="redux" />
+                <p class="name">Redux</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+                    alt="webpack" />
+                <p class="name">Webpack</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest" />
+                <p class="name">Jest</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="ruby" />
+                <p class="name">Ruby</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+                    alt="rails" />
+                <p class="name">Rails</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                    alt="postgresql" />
+                <p class="name">Postgres</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="gitHub" />
+                <p class="name">GitHub</p>
+            </li>
+            <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" />
+                <p class="name">npm</p>
+            </li>
+        </ul>
     </section>
-    <section id="contact-page">
-        <div id="contact">
+    <section id="contact">
+        <div id="contact-text">
             <h2>Contact me</h2>
-            <p>If you have an application you are interested in developing, a feature that you need built or a project
-                that
-                needs coding, I’d love to help with it.</p>
+            <p>If you have a project in mind, don’t hesitate to contact me. I'd love to have a chat.</p>
+
             <form action="https://formspree.io/f/mayvlell" method="post">
                 <ul>
                     <li>
-                        <label for="name"></label>
                         <input class="" type="text" id="name" name="name" required maxlength="30" placeholder="River">
                     </li>
 
                     <li>
-                        <label for="email"></label>
                         <input class="contact-input" type="email" id="email" name="email" required
                             placeholder="melodypond@mail.com">
                     </li>
 
                     <li>
-                        <label for="message"></label>
                         <textarea id="message" name="message" required placeholder="Write your message here"
                             maxlength="500"></textarea>
                     </li>
@@ -118,10 +140,13 @@
                     <li id="error-msg" aria-live="polite"></li>
 
                     <li>
-                        <button type="submit">Get In Touch</button>
+                        <button class="wiggle" type="submit">Get In Touch</button>
                     </li>
                 </ul>
             </form>
+        </div>
+        <div id="contact-img" class="desktop">
+            <img alt="#" src="assets/telephone.png">
         </div>
     </section>
     <script src="script.js"></script>

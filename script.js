@@ -16,6 +16,7 @@ navLinks.forEach((link) => link.addEventListener('click', () => {
   burger.classList.remove('active');
   menuContainer.classList.remove('active');
   body.classList.remove('fixed');
+  menu.classList.toggle('active');
 }));
 
 const worksData = [
@@ -129,8 +130,8 @@ cardContainers.forEach((card, index) => {
       <li>${worksData[index].tag4}</li>
     </ul>
     <ul class="modal-links">
-      <li><a href="https://bengigo.github.io/portfolio/">See Live</a></li>
-      <li><a href="https://github.com/bengigo/portfolio">See Source</a></li>
+      <li class="wiggle"><a target="_blank" href=${worksData[index].live}>See Live<img class="modal-icon" alt="#" src="assets/icons/live.svg"></a></li>
+      <li class="wiggle"><a target="_blank" href=${worksData[index].source}>See Source<img class="modal-icon" alt="#" src="assets/icons/social/github.svg"></a></li>
     </ul>
     `;
     body.classList.toggle('fixed');
