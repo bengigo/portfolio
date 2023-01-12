@@ -1,5 +1,5 @@
 :root {
-  --secondary-font: 'Montserrat', sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
   --secondary-color: tomato;
 }
 
@@ -220,7 +220,6 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #f8f8f8;
-
 }
 
 #main-text {
@@ -235,7 +234,6 @@ main img {
   margin: 15px;
   height: 400px;
   width: 400px;
-  border-radius: 50%;
 }
 
 h1 {
@@ -249,13 +247,14 @@ h2 {
   font-family: var(--secondary-font);
   margin-bottom: 10px;
   font-size: 25px;
+  text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   h2 {
     margin: 180px 0 100px 0;
   }
-}
+} */
 
 /* main p {
   width: 70vw;
@@ -440,7 +439,6 @@ form ul {
       rgb(215, 248, 247) 93.8%
     ); */
     backdrop-filter: blur(100px);
-
   }
 
   .modal .work-img {
@@ -471,20 +469,20 @@ form ul {
 }
 
 #skills {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 150px;
+  justify-content: center;
+  padding: 100px 0 50px 0;
   background-color: #f8f8f8;
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   #skills {
-    /* what da hell */
-    /* padding-top: 0; */
+   
   }
-}
+} */
 
 #skills ul {
   display: flex;
@@ -512,9 +510,22 @@ form ul {
 #contact {
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  padding-top: 150px;
+  padding-top: 90px;
+  justify-content: center;
   align-items: center;
+}
+
+#contact-text {
+  /* border: 1px solid; */
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  #contact-text {
+    width: 60vw;
+    /* border: 1px solid; */
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -532,6 +543,7 @@ form ul {
 @media screen and (min-width: 1024px) {
   #contact p {
     margin-bottom: 35px;
+    width: 60vw;
   }
 }
 
@@ -541,42 +553,66 @@ form {
   flex-direction: column;
 }
 
+@media screen and (min-width: 1024px) {
+  form {
+    width: 60vw;  
+  }
+}
+
+
+
 input {
   width: 100%;
   height: 34px;
-  padding: 15px;
+  /* padding: 15px; */
+  padding: 5px 15px;
   border: none;
   border-radius: 8px;
   margin-bottom: 15px;
+  border: 2px solid #233142;
 }
 
 @media screen and (min-width: 1024px) {
   input {
     margin-bottom: 20px;
+    width: 60vw;
   }
 }
 
 textarea {
   height: 70px;
   width: 100%;
-  padding: 15px;
+  /* padding: 15px; */
+  padding: 5px 15px;
   border: none;
   border-radius: 8px;
   margin-bottom: 20px;
+  border: 2px solid #233142;
 }
 
 @media screen and (min-width: 1024px) {
   textarea {
     margin-bottom: 25px;
+    width: 60vw;
   }
 }
 
 form button {
   border-radius: 8px;
   padding: 10px 15px;
-  border: none;
   background-color: white;
-  color: black;
+  border: 2px solid #233142;
+  color: tomato;
+}
+
+/* #contact-img {
+  border: 1px solid red;
+} */
+
+#contact img {
+  margin: 15px;
+  height: 300px;
+  width: 300px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -585,9 +621,13 @@ form button {
   }
 }
 
-@media screen and (max-width: 1024px) {
+.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
   .desktop {
-    display: none;
+    display: block;
   }
 }
 
