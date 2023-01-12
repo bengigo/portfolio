@@ -119,6 +119,14 @@ form li {
   margin: 0 4px;
   border: none;
   background-color: white;
+  width: 145px;
+  text-align: center;
+}
+
+.modal-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 3px;
 }
 
 nav.active #menu {
@@ -474,15 +482,9 @@ form ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 0 50px 0;
+  padding: 100px 0 100px 0;
   background-color: #f8f8f8;
 }
-
-/* @media screen and (min-width: 1024px) {
-  #skills {
-   
-  }
-} */
 
 #skills ul {
   display: flex;
