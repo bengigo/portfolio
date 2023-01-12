@@ -1,5 +1,8 @@
 :root {
-  --secondary-font: "Montserrat", sans-serif;
+  /* --secondary-font: "Montserrat", sans-serif; */
+  /* --secondary-font:'Alegreya Sans SC', sans-serif; */
+  --secondary-font: 'Comfortaa', cursive;
+
   --secondary-color: tomato;
 }
 
@@ -33,6 +36,7 @@ body {
     rgb(238, 226, 159) 84.8%
   ); */
   scroll-behavior: smooth;
+/* webkit smooth */
 }
 
 body.fixed {
