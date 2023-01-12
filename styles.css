@@ -477,6 +477,7 @@ form ul {
   align-items: center;
   padding-top: 150px;
   background-color: #f8f8f8;
+  border: 1px solid red;
 }
 
 @media screen and (min-width: 1024px) {
@@ -490,9 +491,10 @@ form ul {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  width: 70vw;
+  width: 71vw;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 
 #skills img {
