@@ -372,6 +372,7 @@ form ul {
     height: 100vh;
     z-index: 90;
     backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
   }
 
   .modal .work-img {
