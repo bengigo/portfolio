@@ -263,8 +263,9 @@ h2 {
 }
 
 .img-container {
-  width: 70vw;
-  height: 50vh;
+  width: auto;
+  height: auto;
+  padding: 50px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -273,7 +274,7 @@ h2 {
 
 .work-img {
   width: 55vw;
-  height: 32vh;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -305,7 +306,7 @@ h2 {
 
   .work-img {
     width: 25vw;
-    height: 32vh;
+    height: auto;
   }
 }
 
@@ -334,6 +335,7 @@ h3 {
   height: 100vh;
   z-index: 90;
   backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
 }
 
 .modal .work-img {
@@ -372,6 +374,7 @@ form ul {
     height: 100vh;
     z-index: 90;
     backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
   }
 
   .modal .work-img {
