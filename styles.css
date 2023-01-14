@@ -306,7 +306,6 @@ h2 {
 
   .work-img {
     width: 25vw;
-    /* height: 32vh; */
     height: auto;
   }
 }
@@ -337,7 +336,6 @@ h3 {
   z-index: 90;
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
-
 }
 
 .modal .work-img {
